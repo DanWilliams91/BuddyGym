@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300,400,500,600,700,800&family=Oswald:wght@300&display=swap');
+
+.alert-warning {
+    text-align: center;
+}
+
+/*---------------------------------------------------------Media Queries*/
+@media screen and (min-width: 481px) {
+    .alert-warning-small {
+        display: none;
+    }
+
+    .alert-warning-large {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .alert-warning-small {
+        display: block;
+    }
+
+    .alert-warning-large {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) {
+   
+}
