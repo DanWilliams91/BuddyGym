@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300,400,500,600,700,800&family=Oswald:wght@300&display=swap');
 
+:root {
+    --main-orange-color: #f99c20;
+}
+
+body {
+    font-family: "Open Sans",sans-serif;
+}
+
 .alert-warning {
     text-align: center;
+    color: var(--main-orange-color);
 }
 
 /*---------------------------------------------------------Media Queries*/
