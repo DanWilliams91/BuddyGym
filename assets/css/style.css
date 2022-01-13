@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300,400,500,600,700,800&family=Oswald:wght@300&display=swap');
 
 :root {
-    --main-orange-color: #f99c20;
+    --main-orange-color: #db7d01;
+    --main-yellow-color: #c7bd05;
 }
 
 body {
