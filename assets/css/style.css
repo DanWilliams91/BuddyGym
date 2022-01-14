@@ -1,16 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300,400,500,600,700,800&family=Oswald:wght@300&display=swap');
 
+/*---------------------------------------------------------Colors*/
 :root {
     --main-orange-color: #d86313;
     --main-yellow-color: #faf01d;
 }
 
+/*---------------------------------------------------------Main*/
 body {
     font-family: "Open Sans",sans-serif;
 }
 
-.alert-warning {
+.alert,
+.alert-warning,
+.alert-warning-large {
     text-align: center;
+    margin: 0px;
+}
+
+.logo {
+    position: relative;
+    top: -10px;
+    display: inline-block;
+    height: 78px;
+    width: 78px;
+    background-image: url("../images/BG-logo-circular.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-container {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(148, 141, 141);
 }
 
 /*---------------------------------------------------------Media Queries*/
