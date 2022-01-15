@@ -18,6 +18,10 @@ body {
     margin: 0px;
 }
 
+.logo-container {
+    height: 68px;
+}
+
 .logo {
     position: relative;
     top: -10px;
@@ -33,9 +37,33 @@ body {
 .nav-container {
     position: relative;
     width: 100%;
-    height: 100px;
+    height: 57px;
     background-color: rgb(148, 141, 141);
 }
+
+.nav-container ul {
+    height: 57px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* .nav-container .list-inline-item {
+    position: absolute;
+    height: 57px;
+}
+
+.nav-menu-container {
+    display: inline-flexbox;
+    position: absolute;
+    height: 57px;
+    width: inherit;
+    padding-left: 100px;
+}
+
+.nav-menu-item {
+    padding: 0;
+} */
 
 /*---------------------------------------------------------Media Queries*/
 @media screen and (min-width: 481px) {
