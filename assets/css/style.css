@@ -17,6 +17,11 @@ body {
   text-decoration: none;
 }
 
+.nav-menu-container .active {
+  color: rgb(0, 0, 0);
+  text-decoration: underline var(--main-yellow-color);
+}
+
 .nav-menu-container a:focus {
   color: rgb(0, 0, 0);
   text-decoration: none;
@@ -66,12 +71,23 @@ body {
     width: 80px;
 }
 
-.nav-home-link,
-.nav-join-link {
+.nav-menu-sm .nav-home-link,
+.nav-menu-sm .nav-join-link {
     display: inline-block;
     margin: 0 auto;
     margin-top: 17px;
     font: 500 16px "Open Sans", sans-serif;
+    text-decoration: none;
+}
+
+.nav-menu-md .nav-home-link,
+.nav-menu-md .nav-join-link,
+.nav-facilities-link,
+.nav-contact-link {
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 17px;
+    font: 500 20px "Open Sans", sans-serif;
     text-decoration: none;
 }
 
@@ -83,17 +99,11 @@ body {
     width: 85px;
 }
 
-.nav-menu-container a {
-    border: none;
-    padding: 8px;
-    border-radius: 40%;
-}
-
-.active {
+/* .active {
   border: 2px solid var(--main-yellow-color);
   padding: 8px;
   border-radius: 40%;
-}
+} */
 
 /*Hamburger Icon Start---------------------------------------------------------*/
 /*Hamburger Icon Styling Sourced from https://codepen.io/ngochuynh/pen/yKrvVZ with some styling customised*/
@@ -231,7 +241,7 @@ body {
     }
 
     .nav-menu-md {
-      display: block;
+      display: none;
     }
 }
 
