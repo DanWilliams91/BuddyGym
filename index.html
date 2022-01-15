@@ -13,30 +13,47 @@
 
 <body>
 <!-- Alert Banner Start-->    
-    <div class="alert alert-warning alert-warning-small" style="margin: 0px;" role="alert">
+    <div class="alert alert-warning alert-warning-sm" style="margin: 0px; font-size: 14px;" role="alert">
         <a href="#" class="alert-link"><strong>Sale now on! Click to read more!</strong></a>
     </div>
-    <div class="alert alert-warning alert-warning-large" style="margin: 0px;" role="alert">
+    <div class="alert alert-warning alert-warning-md" style="margin: 0px;" role="alert">
         <a href="#" class="alert-link"><strong>Sale now on - join with a friend and pay £0 joining fee! Click to read more!</strong></a>
     </div>
 <!-- Alert Banner End-->
 <!-- Navbar Start-->
-    <nav>
+    <nav class="navbar" style="padding: 0;">
         <div class="nav-container">
-            <ul class="list-inline">
-                <li class="list-inline-item">
-                    <div><a class="logo" href="index.html"></a></div>
-                </li>
-                <li class="list-inline-item">
-                    Home
-                </li>
-                <li class="list-inline-item">
-                    Join Us
-                </li>
-                <li class="list-inline-item">
-                    MENU
-                </li>
-            </ul>
+            <div class="logo-container">
+                <a class="logo" href="index.html"></a>
+            </div>
+            <!-- Navbar for Smaller Screens Start-->
+            <div class="nav-menu-container nav-menu-sm">
+                <div class="nav-logo-spacing">
+                </div>
+                <div class="nav-home-link">
+                    <a href="index.html" class="active">Home</a>
+                </div>
+                <div class="nav-join-link">
+                    <a href="#">Join Us</a>
+                </div>
+                <div class="nav-button-container">
+                    <!--Navbar Menu Icon Start - taken from https://codepen.io/ngochuynh/pen/yKrvVZ-->
+                    <nav id="navbar" class="navigation" role="navigation">
+                        <input id="toggle1" type="checkbox" />
+                        <label class="hamburger1" for="toggle1">
+                            <div class="top"></div>
+                            <div class="meat"></div>
+                            <div class="bottom"></div>
+                        </label>
+                        <nav class="menu1">
+                            <a class="link1 kbutton-nav" href="#">Facilities & Classes</a>
+                            <a class="link2 kbutton-nav" href="#">Contact & Opening Times</a>
+                        </nav>
+                    </nav>
+                    <!--Navbar Menu Icon End - taken from https://codepen.io/ngochuynh/pen/yKrvVZ-->
+                </div>
+            </div>            
+            <!-- Navbar for Smaller Screens End-->
         </div>
     </nav>
 <!-- Navbar End-->
