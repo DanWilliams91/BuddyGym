@@ -13,6 +13,34 @@ body {
   background-color: var(--bg-orange-color);
 }
 
+.alert-banner-sm {
+  margin: 0px;
+  font-size: 14px;
+  padding: 10px;
+  background-color: var(--main-orange-color);
+}
+
+.alert-banner-md {
+  margin: 0px;
+  padding: 10px;
+  background-color: var(--main-orange-color);
+}
+
+.alert-banner-sm,
+.alert-banner-md {
+  position: relative;
+  width: 100vw;
+  text-align: center;
+  padding: 2px 0 2px 0;
+  border: 2px solid var(--bg-orange-color);
+}
+
+.alert-banner-sm a,
+.alert-banner-md a {
+  text-decoration: none;
+  color: white;
+}
+
 .navbar {
   border-top: 2px solid var(--main-orange-color);
   border-bottom: 2px solid var(--main-orange-color);
@@ -32,13 +60,6 @@ body {
 .nav-menu-container a:focus {
   color: rgb(0, 0, 0);
   text-decoration: none;
-}
-
-.alert,
-.alert-warning,
-.alert-warning-large {
-  text-align: center;
-  margin: 0px;
 }
 
 .logo {
@@ -301,11 +322,11 @@ footer button span {
 /*Footer End-----------------------------------------------------------------*/
 /*Media Queries--------------------------------------------------------------*/
 @media screen and (min-width: 481px) {
-  .alert-warning-sm {
+  .alert-banner-sm {
     display: none;
   }
 
-  .alert-warning-md {
+  .alert-banner-md {
     display: block;
   }
 
@@ -315,11 +336,11 @@ footer button span {
 }
 
 @media screen and (max-width: 480px) {
-  .alert-warning-sm {
+  .alert-banner-sm {
     display: block;
   }
 
-  .alert-warning-md {
+  .alert-banner-md {
     display: none;
   }
 
