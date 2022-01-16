@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300,400,500,600,700,800&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300,400,500,600,700,800&family=Oswald:wght@300&family=Neonderthaw&display=swap');
 
 /*Colors---------------------------------------------------------*/
 :root {
@@ -68,7 +68,7 @@ body {
   display: inline-block;
   height: 78px;
   width: 78px;
-  background-image: url("../images/BG-logo-circular.png");
+  background-image: url("../images/bg-logo-circular.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -236,14 +236,33 @@ body {
 /*Home Page Exclusive Items Start--------------------------------------------*/
 
 .hero-container {
-  background-image: url("../images/Hero-sm.png");
-  background-repeat: no-repeat;
+  position: relative;
+  background-image: url("../images/hero-sm.png");
   background-size: cover;
-  background-size: contain;
+  background-position-x: -200px;
   height: 60vh;
   z-index: -1;
 }
 
+.hero-container h1 {
+  font-family: "Neonderthaw", cursive;
+  font-size: 30px;
+  padding-top: 10%;
+  padding-left: 5%;
+  color: var(--main-orange-color);
+}
+
+.hero-container p {
+  font-family: "Neonderthaw", cursive;
+  padding: 10px 2%;
+  color: var(--main-yellow-color);
+  position: absolute;
+  bottom: 5%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-color: rgba(0, 0, 0, 0.4);
+  border-radius: 20%;
+}
 
 /*Home Page Exclusive Items End----------------------------------------------*/
 /*Footer Start---------------------------------------------------------------*/
@@ -334,7 +353,7 @@ footer button span {
 
 /*Footer End-----------------------------------------------------------------*/
 /*Media Queries--------------------------------------------------------------*/
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 768px) {
   .alert-banner-sm {
     display: none;
   }
@@ -345,7 +364,18 @@ footer button span {
 
   .hero-container {
     background-size: cover;
-    background-image: url("../images/Hero.jpg");
+    background-image: url("../images/hero.jpg");
+    background-position-x: 0;
+  }
+
+  .hero-container h1 {
+    padding-top: 5%;
+    font-size: 4em;
+  }
+
+  .hero-container p {
+    padding-left: 5%;
+    font-size: 2em;
   }
 
   footer button span {
@@ -377,7 +407,13 @@ footer button span {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 391px) and (max-width: 767px) {
+  .hero-container {
+    background-position-x: -10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
   
   .alert-banner-md {
     display: none;
@@ -395,7 +431,7 @@ footer button span {
 @media screen and (min-width: 769px) {
   .hero-container {
     background-size: cover;
-    background-image: url("../images/Hero.jpg");
+    background-image: url("../images/hero.jpg");
     height: 75vh;
   }
 }
