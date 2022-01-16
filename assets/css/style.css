@@ -53,7 +53,7 @@ body {
 
 .nav-menu-container .active {
   color: rgb(0, 0, 0);
-  border: 2px solid var(--main-yellow-color);
+  border: 2px solid var(--main-orange-color);
   padding: 8px;
 }
 
@@ -233,6 +233,19 @@ body {
 }
 
 /*Hamburger Icon End---------------------------------------------------------*/
+/*Home Page Exclusive Items Start--------------------------------------------*/
+
+.hero-container {
+  background-image: url("../images/Hero-sm.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: contain;
+  height: 60vh;
+  z-index: -1;
+}
+
+
+/*Home Page Exclusive Items End----------------------------------------------*/
 /*Footer Start---------------------------------------------------------------*/
 
 footer {
@@ -330,6 +343,11 @@ footer button span {
     display: none;
   }
 
+  .hero-container {
+    background-size: cover;
+    background-image: url("../images/Hero.jpg");
+  }
+
   footer button span {
     font-size: 14px;
   }
@@ -375,5 +393,9 @@ footer button span {
 }
 
 @media screen and (min-width: 769px) {
-
+  .hero-container {
+    background-size: cover;
+    background-image: url("../images/Hero.jpg");
+    height: 75vh;
+  }
 }
