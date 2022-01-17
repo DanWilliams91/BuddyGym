@@ -5,12 +5,19 @@
   --main-orange-color: #d86313;
   --main-yellow-color: #faf01d;
   --bg-orange-color: #ffba75;
+  --bg-black-color: rgba(0,0,0,0.8);
 }
 
 /*Main---------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: var(--bg-orange-color);
+  color: var(--main-orange-color);
+  background-color: var(--bg-black-color);
+}
+
+img {
+  border: 2px solid var(--main-yellow-color);
+  border-radius: 50%;
 }
 
 .alert-banner-sm {
@@ -264,15 +271,39 @@ body {
   border-radius: 20%;
 }
 
+#sale-info h1 {
+  text-align: center;
+  margin-top: 2%;
+}
+
+#sale-info a {
+  text-decoration: none;
+  color:var(--main-yellow-color);
+  font-weight: 600;
+}
+
+.home-image-container {
+  text-align: center;
+}
+
+.home-image-container img {
+  width: 80%;
+  text-align: center;
+}
+
+#sale-info span {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
 /*Home Page Exclusive Items End----------------------------------------------*/
 /*Footer Start---------------------------------------------------------------*/
 
 footer {
+  color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: absolute;
-  bottom: 0;
   font-size: 10px;
   background-color: var(--main-yellow-color);
   border-top: 2px solid var(--main-orange-color);
@@ -353,7 +384,7 @@ footer button span {
 
 /*Footer End-----------------------------------------------------------------*/
 /*Media Queries--------------------------------------------------------------*/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   .alert-banner-sm {
     display: none;
   }
@@ -368,14 +399,67 @@ footer button span {
     background-position-x: 0;
   }
 
-  .hero-container h1 {
-    padding-top: 5%;
-    font-size: 4em;
-  }
-
   .hero-container p {
     padding-left: 5%;
     font-size: 2em;
+  }
+
+  .home-image-container {
+    margin-bottom: 1em;
+  }
+
+  .home-p1-img1-container,
+  .home-p2-img2-container,
+  .home-p3-img3-container {
+    display: flex;
+  }
+
+  .home-p2-sm {
+    display: none;
+  }
+
+  .home-p2-md {
+    margin: 5% 0;
+  }
+  
+  .home-p1 {
+    float: left;
+  }
+
+  .home-p1 p {
+    text-align: right;
+    margin-top: 10%;
+  }
+
+  .home-p2 p {
+    text-align: left;
+    margin-top: 10%;
+  }
+
+  .home-p3 p {
+    text-align: right;
+    margin: 20% 0;
+  }
+
+
+  .home-img1 {
+    float: right;
+  }
+
+  .home-p2 {
+    float: right;
+  }
+
+  .home-img2 {
+    float: left;
+  }
+
+  .home-p3 {
+    float: left;
+  }
+
+  .home-img3 {
+    float: right;
   }
 
   footer button span {
@@ -407,9 +491,23 @@ footer button span {
   }
 }
 
-@media screen and (min-width: 391px) and (max-width: 767px) {
+@media screen and (min-width: 391px) {
+
+  .hero-container h1 {
+    padding-top: 5%;
+    font-size: 4em;
+  }
+}
+
+@media screen and (min-width: 391px) and (max-width: 768px) {
   .hero-container {
     background-position-x: -10px;
+  }
+}
+
+@media screen and (min-width: 391px) and (max-width: 490px) {
+  .hero-container {
+    background-position-x: -100px;
   }
 }
 
@@ -423,8 +521,25 @@ footer button span {
     display: none;
   }
 
+  .home-image-container {
+    margin-bottom: 2%;
+    text-align: center;
+  }
+
+  .home-p2-md {
+    display: none;
+  }
+
+  .home-img3 {
+    display: none;
+  }
+
   .footer-socials-md {
     display: none;
+  }
+  
+  #sale-info p {
+    text-align: center;
   }
 }
 
@@ -433,5 +548,33 @@ footer button span {
     background-size: cover;
     background-image: url("../images/hero.jpg");
     height: 75vh;
+  }
+
+  .home-p1,
+  .home-p3 {
+    width: 100%;
+    padding-left: 1em;
+  }
+
+  .home-p2 {
+    width: 100%;
+    padding-right: 1em;
+    text-align: right;
+  }
+
+  .home-p1-img1-container,
+  .home-p2-img2-container,
+  .home-p3-img3-container {
+    margin: 0 2em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: 20px;
+  }
+
+  .home-p3 p {
+    margin: 15% 0;
   }
 }
