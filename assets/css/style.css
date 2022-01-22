@@ -20,6 +20,27 @@ img {
   border-radius: 50%;
 }
 
+form {
+  font-size: 12px;
+}
+
+form input {
+  margin: -0.5em 0 1em;
+  max-width: -webkit-fill-available;
+  border: 1px solid var(--main-orange-color);
+}
+
+form .btn-submit {
+  margin-top: 1em;
+  background-color: var(--main-orange-color);
+  color: white;
+}
+
+form .btn-submit:hover {
+  background-color: white;
+  color: var(--main-orange-color);
+}
+
 .alert-banner-sm {
   margin: 0px;
   font-size: 14px;
@@ -270,7 +291,8 @@ img {
 #memberships h1,
 #facilities h1,
 #classes h1,
-#contact-us h1 {
+#contact-us h1,
+#contact h1 {
   text-align: center;
   padding-top: 2%;  
   border-top: 2px solid var(--main-orange-color);
@@ -279,7 +301,8 @@ img {
 #sale-info a,
 #memberships a,
 #classes a,
-#contact-us a {
+#contact-us a,
+#contact a {
   text-decoration: none;
   color: var(--main-yellow-color);
   font-weight: 600;
@@ -288,9 +311,14 @@ img {
 #sale-info a:hover,
 #memberships a:hover,
 #classes a:hover,
-#contact-us a:hover {
+#contact-us a:hover,
+#contact a:hover {
   background-color: var(--main-yellow-color);
   color: var(--bg-black-color);
+}
+
+#open-modal a:hover {
+  background: none;
 }
 
 .footer-socials a:hover {
@@ -332,7 +360,7 @@ img {
   text-transform: uppercase;
 }
 
-h3 {
+#memberships h3 {
   color:var(--bg-black-color);
   text-decoration: underline;
   text-decoration-color: var(--bg-black-color);
@@ -366,11 +394,107 @@ h3 {
 
 #facilities p,
 #classes p,
-#memberships {
+#memberships,
+#contact {
   text-align: center;
 }
 
 /*Facilities Page Exclusive Items End----------------------------------------------*/
+/*Contact Page Exclusive Items Start----------------------------------------------*/
+
+table {
+  margin: 0 auto;
+}
+
+.location-container p {
+  line-height: 0.5;
+}
+
+.opening-times-container {
+  margin-top: 2em;
+}
+
+.socials-body-container img {
+  height: 4em;
+  margin-bottom: 1em;
+}
+
+#contact h2 {
+  text-decoration: underline;
+  margin-top: 1em;
+}
+
+#fb-link,
+#ig-link {
+  margin-right: 1rem;
+}
+
+#twitter-link,
+#yt-link {
+  margin-left: 1rem;
+}
+
+/*Contact Page Exclusive Items End----------------------------------------------*/
+/*MODAL STARTS HERE - FROM https://www.labnol.org/code/20083-modal-popup-css*/
+.modal-window {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.75);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  opacity: 0;
+  pointer-events: none;
+  overflow-y: auto;
+  text-align: center;
+  display: none;
+}
+
+.modal-window:target {
+  display: block;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal-window > div {
+  width: 90%;
+  position: relative;
+  margin: 5% auto;
+  padding: 2rem;
+  background: var(--main-yellow-color);
+  border: 10px solid var(--main-orange-color);
+  color: rgb(0, 0, 0);
+}
+
+.modal-window header {
+  font-weight: bold;
+}
+
+.modal-close {
+  font-size: 200%;
+  position: absolute;
+  right: 1%;
+  text-align: center;
+  top: -2%;
+  text-decoration: none;
+}
+
+.modal-close:hover {
+  color: #000;
+}
+
+.modal-window h1 {
+  font-size: 2rem;
+  margin: 0 0 15px;
+  font-weight: 600;
+}
+
+#open-modal a {
+  color:rgb(0, 0, 0);
+}
+
+/*MODAL ENDS HERE - FROM https://www.labnol.org/code/20083-modal-popup-css*/
 /*Footer Start---------------------------------------------------------------*/
 
 footer {
@@ -417,7 +541,6 @@ footer button span {
 }
 
 .footer-return-to-top {
-  /* width: 100px; */
   margin-top: 25px;
   margin-right: auto;
   margin-bottom: 0;
@@ -458,6 +581,15 @@ footer button span {
 /*Footer End-----------------------------------------------------------------*/
 /*Media Queries--------------------------------------------------------------*/
 @media screen and (min-width: 769px) {
+
+  form {
+    font-size: 1.5em;
+  }
+
+  .contact-options {
+    margin-right: 1em;
+  }
+  
   .alert-banner-sm {
     display: none;
   }
@@ -558,6 +690,18 @@ footer button span {
     margin: 4em auto 0 auto;
   }
 
+  .modal-window > div {
+    width: 70%;
+  }
+
+  .radio-br {
+    display: none;
+  }
+
+  .socials-body-container img {
+    height: 7em;
+  }
+
   footer button span {
     font-size: 14px;
   }
@@ -598,7 +742,6 @@ footer button span {
     width: 99%;
     margin: 0 auto;
   }
-
 }
 
 @media screen and (max-width: 300px) {
@@ -613,6 +756,11 @@ footer button span {
 }
 
 @media screen and (min-width: 391px) and (max-width: 768px) {
+  
+  form {
+    font-size: 1em;
+  }
+
   .hero-container {
     background-position-x: -10px;
   }  
@@ -711,6 +859,40 @@ footer button span {
     margin: 0 2em;
   }
 
+  .location-opening-container,
+  .telephone-email-container,
+  .socials-body-container {
+    display: flex;
+    width: 100%;
+    margin-top: 2%;
+  }
+
+  .location-container,
+  .telephone-container,
+  .socials-left-container {
+    float: left;
+    margin: 0 auto;
+  }
+  
+  .opening-times-container,
+  .email-container,
+  .socials-right-container {
+    float: right;
+    margin: 0 auto;
+  }
+
+  .socials-left-container {
+    margin: 0 1rem 0 auto;
+  }
+
+  .socials-right-container {
+    margin: 0 auto 0 1rem;
+  }
+
+  #open-modal a {
+    font-size: 3em;
+  }
+
   .footer-contact,
   .footer-socials {
     padding: 0 10px;
@@ -722,7 +904,7 @@ footer button span {
 }
 
 @media screen and (min-width: 769px) and (max-width:1199px) {
-    
+  
   .hero-container h1 {
     font-size: 6em;
   }
@@ -752,6 +934,10 @@ footer button span {
   
   body {
     font-size: 20px;
+  }
+
+  .modal-window > div {
+    width: 60%;
   }
 
   .alert-banner-md a {
@@ -787,6 +973,13 @@ footer button span {
     margin: 0 auto;
   }
 
+  .location-opening-container,
+  .telephone-email-container,
+  .socials-body-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
   footer button span {
     font-size: 20px;
   }
@@ -803,6 +996,10 @@ footer button span {
 
   .home-p3 p {
     margin: 5% 0;
+  }
+
+  .modal-window > div {
+    width: 50%;
   }
 
   #facilities h1,
@@ -823,6 +1020,14 @@ footer button span {
   h2,
   h3 {
     font-size: 4em;
+  }
+
+  p {
+    font-size: 2em;
+  }
+
+  footer p {
+    font-size: 1em;
   }
 
   .hero-container h1 {
@@ -855,6 +1060,10 @@ footer button span {
 
   .home-p3 p {
     font-size: 2em;
+  }
+  
+  .modal-window > div {
+    width: 40%;
   }
 
   .footer-contact,
