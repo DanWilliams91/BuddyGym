@@ -81,39 +81,41 @@
         <h1>Contact Us</h1>
         <p>Contacting us is easy, just choose your preferred way to get in touch from the below options.</p>
         <!-- MODAL STARTS HERE - FROM https://www.labnol.org/code/20083-modal-popup-css-->
-        <a href="#open-modal">
-            <h2>Submit a Form and We'll Get Back to You</h2>
-        </a>
-        <div id="open-modal" class="modal-window">
-            <div>
-                <a href="#modal-close" title="Close" class="modal-close">&times;</a>
-                <h2>Let us get in touch with you</h2>
-                <form action="contact.html" method="get">
-                    <label for="name">Your name</label>
-                    <br>
-                    <input id="name" type="text" required>
-                    <br>
-                    <label for="email">Your email address</label>
-                    <br>
-                    <input id="email" type="email" required>
-                    <br>
-                    <label for="phone">Your best contact number</label>
-                    <br>
-                    <input id="phone" type="number" required>
-                    <br>
-                    <label>Choose how you'd prefer us to contact you</label>
-                    <br>
-                    <input type="radio" id="email" name="contact-options">
-                    <label for="email" class="contact-options">Email</label>
-                    <br class="radio-br">
-                    <input type="radio" id="phone" name="contact-options">
-                    <label for="phone" class="contact-options">Telephone</label>
-                    <br class="radio-br">
-                    <input type="radio" id="either" name="contact-options">
-                    <label for="either">No preference</label>
-                    <br>
-                    <input type="submit" value="Contact Me" class="btn-submit">
-                </form>
+        <div class="modal-container">
+            <a id="modal" href="#open-modal">
+                <h2 class="link">Submit a Form and We'll Get Back to You</h2>
+            </a>
+            <div id="open-modal" class="modal-window">
+                <div>
+                    <a href="#modal-close" title="Close" class="modal-close">&times;</a>
+                    <h2>Let us get in touch with you</h2>
+                    <form action="contact-success.html" method="get">
+                        <label for="name">Your name</label>
+                        <br>
+                        <input id="name" type="text" required>
+                        <br>
+                        <label for="email">Your email address</label>
+                        <br>
+                        <input id="email" type="email" required>
+                        <br>
+                        <label for="phone">Your best contact number</label>
+                        <br>
+                        <input id="phone" type="number" required>
+                        <br>
+                        <label>Choose how you'd prefer us to contact you</label>
+                        <br>
+                        <input type="radio" id="email" name="contact-options">
+                        <label for="email" class="contact-options">Email</label>
+                        <br class="radio-br">
+                        <input type="radio" id="phone" name="contact-options">
+                        <label for="phone" class="contact-options">Telephone</label>
+                        <br class="radio-br">
+                        <input type="radio" id="either" name="contact-options">
+                        <label for="either">No preference</label>
+                        <br>
+                        <input type="submit" value="Contact Me" class="btn-submit">
+                    </form>
+                </div>
             </div>
         </div>
         <!-- MODAL ENDS HERE - FROM https://www.labnol.org/code/20083-modal-popup-css-->
@@ -186,7 +188,7 @@
             </div>
             <div class="email-container">
                 <h3>Email</h3>
-                <a href="mailto:Contact@buddygym.net">Contact@buddygym.net</a>
+                <a  class="link" href="mailto:Contact@buddygym.net">Contact@buddygym.net</a>
             </div>
         </div>
         <h2>Hit Us Up on Our Socials</h2>
