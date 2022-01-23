@@ -91,19 +91,30 @@
                         <a href="#modal-close1" title="Close" class="modal-close">&times;</a>
                         <h2>Let us get in touch with you</h2>
                         <form action="contact-success.html" method="get">
-                            <label for="name">Your name</label>
+                            <label class="uline">Query category</label>
+                            <br>
+                            <input type="radio" id="signup" name="contact-reasons" required>
+                            <label for="signup" class="contact-reasons">Signing up</label>
+                            <br class="radio-br">
+                            <input type="radio" id="class-canx" name="contact-reasons">
+                            <label for="class-canx" class="contact-reasons">Cancelling a booking</label>
+                            <br>
+                            <input type="radio" id="other" name="contact-reasons">
+                            <label for="other">Other please specify below</label>
+                            <br>
+                            <label class="uline" for="name">Your name</label>
                             <br>
                             <input id="name" type="text" required>
                             <br>
-                            <label for="email">Your email address</label>
+                            <label class="uline" for="email">Your email address</label>
                             <br>
                             <input id="email" type="email" required>
                             <br>
-                            <label for="phone">Your best contact number</label>
+                            <label class="uline" for="phone">Your best contact number</label>
                             <br>
                             <input id="phone" type="number" required>
                             <br>
-                            <label>Choose how you'd prefer us to contact you</label>
+                            <label class="uline">Choose how you'd prefer us to contact you</label>
                             <br>
                             <input type="radio" id="email" name="contact-options">
                             <label for="email" class="contact-options">Email</label>
@@ -114,7 +125,7 @@
                             <input type="radio" id="either" name="contact-options">
                             <label for="either">No preference</label>
                             <br>
-                            <label for="info">Please provide a brief description as to why you'd like us to get in touch:</label>
+                            <label class="uline" for="info">Please provide a brief description of your query:</label>
                             <br>
                             <textarea id="info" name="info" required></textarea>
                             <br>
@@ -136,15 +147,15 @@
                             <br>
                             (members only)</h2>
                         <form action="booking-success.html" method="get">
-                            <label for="name">Your name</label>
+                            <label class="uline" for="name">Your name</label>
                             <br>
                             <input id="name" type="text" required>
                             <br>
-                            <label for="number">Your membership number</label>
+                            <label class="uline" for="number">Your membership number</label>
                             <br>
                             <input id="number" type="number" required>
                             <br>
-                            <label>Choose which class you'd like to book</label>
+                            <label class="uline">Choose which class you'd like to book</label>
                             <br>
                             <input type="radio" id="aerobics" name="class-options" required>
                             <label for="aerobics" class="class-options">Aerobics</label>
@@ -163,13 +174,13 @@
                             <br class="radio-br">
                             <input type="radio" id="Zumba" name="class-options">
                             <label for="Zumba" class="class-options">Zumba</label>
-                            <br class="radio-br">
+                            <!-- <br class="radio-br"> -->
                             <br>
-                            <label for="date">Class date</label>
+                            <label class="uline" for="date">Class date</label>
                             <br>
                             <input id="date" type="date" required>
                             <br>
-                            <label for="time">Class time</label>
+                            <label class="uline" for="time">Class time</label>
                             <br>
                             <input id="time" type="time" required>
                             <br>
