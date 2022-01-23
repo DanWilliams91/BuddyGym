@@ -12,13 +12,15 @@
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <!-- Alert Banner Start-->
     <div class="alert-banner-sm">
         <a href="index.html#sale-info" class="alert-link"><strong>Sale now on! Click to read more!</strong></a>
     </div>
     <div class="alert-banner-md">
-        <a href="index.html#sale-info" class="alert-link"><strong>Sale now on - join with a friend and pay £0 joining fee! Click to read
+        <a href="index.html#sale-info" class="alert-link"><strong>Sale now on - join with a friend and pay £0 joining
+                fee! Click to read
                 more!</strong></a>
     </div>
     <!-- Alert Banner End-->
@@ -77,135 +79,197 @@
         </div>
     </nav>
     <!-- Navbar End-->
-    <section id="contact">
-        <h1>Contact Us</h1>
-        <p>Contacting us is easy, just choose your preferred way to get in touch from the below options.</p>
-        <!-- MODAL STARTS HERE - FROM https://www.labnol.org/code/20083-modal-popup-css-->
-        <div class="modal-container">
-            <a id="modal" href="#open-modal">
-                <h2 class="link">Submit a Form and We'll Get Back to You</h2>
-            </a>
-            <div id="open-modal" class="modal-window">
-                <div>
-                    <a href="#modal-close" title="Close" class="modal-close">&times;</a>
-                    <h2>Let us get in touch with you</h2>
-                    <form action="contact-success.html" method="get">
-                        <label for="name">Your name</label>
-                        <br>
-                        <input id="name" type="text" required>
-                        <br>
-                        <label for="email">Your email address</label>
-                        <br>
-                        <input id="email" type="email" required>
-                        <br>
-                        <label for="phone">Your best contact number</label>
-                        <br>
-                        <input id="phone" type="number" required>
-                        <br>
-                        <label>Choose how you'd prefer us to contact you</label>
-                        <br>
-                        <input type="radio" id="email" name="contact-options">
-                        <label for="email" class="contact-options">Email</label>
-                        <br class="radio-br">
-                        <input type="radio" id="phone" name="contact-options">
-                        <label for="phone" class="contact-options">Telephone</label>
-                        <br class="radio-br">
-                        <input type="radio" id="either" name="contact-options">
-                        <label for="either">No preference</label>
-                        <br>
-                        <input type="submit" value="Contact Me" class="btn-submit">
-                    </form>
+    <main>
+        <section id="contact">
+            <h1>Contact Us</h1>
+            <p>Contacting us is easy, just choose your preferred way to get in touch from the below options.</p>
+            <!-- MODAL 1 STARTS HERE - FROM https://www.labnol.org/code/20083-modal-popup-css-->
+            <div class="modal-container">
+                <a id="modal1" href="#open-modal1">
+                    <h2 class="link">Submit a Form and We'll Get Back to You</h2>
+                </a>
+                <div id="open-modal1" class="modal-window">
+                    <div>
+                        <a href="#modal-close1" title="Close" class="modal-close">&times;</a>
+                        <h2>Let us get in touch with you</h2>
+                        <form action="contact-success.html" method="get">
+                            <label for="name">Your name</label>
+                            <br>
+                            <input id="name" type="text" required>
+                            <br>
+                            <label for="email">Your email address</label>
+                            <br>
+                            <input id="email" type="email" required>
+                            <br>
+                            <label for="phone">Your best contact number</label>
+                            <br>
+                            <input id="phone" type="number" required>
+                            <br>
+                            <label>Choose how you'd prefer us to contact you</label>
+                            <br>
+                            <input type="radio" id="email" name="contact-options">
+                            <label for="email" class="contact-options">Email</label>
+                            <br class="radio-br">
+                            <input type="radio" id="phone" name="contact-options">
+                            <label for="phone" class="contact-options">Telephone</label>
+                            <br class="radio-br">
+                            <input type="radio" id="either" name="contact-options">
+                            <label for="either">No preference</label>
+                            <br>
+                            <input type="submit" value="Contact Me" class="btn-submit">
+                        </form>
+                    </div>
                 </div>
             </div>
-        </div>
-        <!-- MODAL ENDS HERE - FROM https://www.labnol.org/code/20083-modal-popup-css-->
-        <h2>Visit the Club</h2>
-        <div class="location-opening-container">
-            <div class="location-container">
-                <h3>Our Location</h3>
-                <div>
-                    <p>BuddyGym</p>
-                    <p>1 Gym Lane</p>
-                    <p>Exercise City</p>
-                    <p>United Kingdom</p>
+            <!-- MODAL 1 ENDS HERE - FROM https://www.labnol.org/code/20083-modal-popup-css-->
+            <!-- MODAL 2 STARTS HERE - FROM https://www.labnol.org/code/20083-modal-popup-css-->
+            <div class="modal-container">
+                <a id="modal2" href="#open-modal2">
+                    <h2 class="link">Book a Class (members only)</h2>
+                </a>
+                <div id="open-modal2" class="modal-window">
+                    <div>
+                        <a href="#modal-close2" title="Close" class="modal-close">&times;</a>
+                        <h2>Book a class
+                            <br>
+                            (members only)</h2>
+                        <form action="booking-success.html" method="get">
+                            <label for="name">Your name</label>
+                            <br>
+                            <input id="name" type="text" required>
+                            <br>
+                            <label for="number">Your membership number</label>
+                            <br>
+                            <input id="number" type="number" required>
+                            <br>
+                            <label>Choose which class you'd like to book</label>
+                            <br>
+                            <input type="radio" id="aerobics" name="class-options" required>
+                            <label for="aerobics" class="class-options">Aerobics</label>
+                            <br class="radio-br">
+                            <input type="radio" id="boxfit" name="class-options">
+                            <label for="boxfit" class="class-options">Box Fit</label>
+                            <br class="radio-br">
+                            <input type="radio" id="circuit" name="class-options">
+                            <label for="circuit" class="class-options">Circuit</label>
+                            <br>
+                            <input type="radio" id="spin" name="class-options">
+                            <label for="spin" class="class-options">Spin</label>
+                            <br class="radio-br">
+                            <input type="radio" id="strength" name="class-options">
+                            <label for="strength" class="class-options">Strength</label>
+                            <br class="radio-br">
+                            <input type="radio" id="Zumba" name="class-options">
+                            <label for="Zumba" class="class-options">Zumba</label>
+                            <br class="radio-br">
+                            <br>
+                            <label for="date">Class date</label>
+                            <br>
+                            <input id="date" type="date" required>
+                            <br>
+                            <label for="time">Class time</label>
+                            <br>
+                            <input id="time" type="time" required>
+                            <br>
+                            <input type="submit" value="Book Me In" class="btn-submit">
+                        </form>
+                    </div>
                 </div>
             </div>
-            <div class="opening-times-container">
-                <h3>Our Opening Times</h3>
-                <table>
-                    <tr>
-                        <th>Day</th>
-                        <th>Open</th>
-                        <th>Close</th>
-                    </tr>
-                    <tr>
-                        <td>Mondays</td>
-                        <td>08:00</td>
-                        <td>22:00</td>
-                    </tr>
-                    <tr>
-                        <td>Tuesdays</td>
-                        <td>08:00</td>
-                        <td>22:00</td>
-                    </tr>
-                    <tr>
-                        <td>Wednesdays</td>
-                        <td>08:00</td>
-                        <td>22:00</td>
-                    </tr>
-                    <tr>
-                        <td>Thursdays</td>
-                        <td>08:00</td>
-                        <td>22:00</td>
-                    </tr>
-                    <tr>
-                        <td>Fridays</td>
-                        <td>08:00</td>
-                        <td>22:00</td>
-                    </tr>
-                    <tr>
-                        <td>Saturdays</td>
-                        <td>10:00</td>
-                        <td>20:00</td>
-                    </tr>
-                    <tr>
-                        <td>Sundays</td>
-                        <td>10:00</td>
-                        <td>20:00</td>
-                    </tr>
-                    <tr>
-                        <td>Bank Holidays</td>
-                        <td colspan="2">Closed</td>
-                    </tr>
-                </table>
+            <!-- MODAL 2 ENDS HERE - FROM https://www.labnol.org/code/20083-modal-popup-css-->
+            <h2>Visit the Club</h2>
+            <div class="location-opening-container">
+                <div class="location-container">
+                    <h3>Our Location</h3>
+                    <div>
+                        <p>BuddyGym</p>
+                        <p>1 Gym Lane</p>
+                        <p>Exercise City</p>
+                        <p>United Kingdom</p>
+                    </div>
+                </div>
+                <div class="opening-times-container">
+                    <h3>Our Opening Times</h3>
+                    <table>
+                        <tr>
+                            <th class="tr-col-left">Day</th>
+                            <th>Open</th>
+                            <th>Close</th>
+                        </tr>
+                        <tr>
+                            <td class="tr-col-left">Mondays</td>
+                            <td>08:00</td>
+                            <td>22:00</td>
+                        </tr>
+                        <tr>
+                            <td class="tr-col-left">Tuesdays</td>
+                            <td>08:00</td>
+                            <td>22:00</td>
+                        </tr>
+                        <tr>
+                            <td class="tr-col-left">Wednesdays</td>
+                            <td>08:00</td>
+                            <td>22:00</td>
+                        </tr>
+                        <tr>
+                            <td class="tr-col-left">Thursdays</td>
+                            <td>08:00</td>
+                            <td>22:00</td>
+                        </tr>
+                        <tr>
+                            <td class="tr-col-left">Fridays</td>
+                            <td>08:00</td>
+                            <td>22:00</td>
+                        </tr>
+                        <tr>
+                            <td class="tr-col-left">Saturdays</td>
+                            <td>10:00</td>
+                            <td>20:00</td>
+                        </tr>
+                        <tr>
+                            <td class="tr-col-left">Sundays</td>
+                            <td>10:00</td>
+                            <td>20:00</td>
+                        </tr>
+                        <tr>
+                            <td class="tr-col-left">Bank Holidays</td>
+                            <td colspan="2">Closed</td>
+                        </tr>
+                    </table>
+                </div>
             </div>
-        </div>
-        <h2>Call or Email Us</h2>
-        <div class="telephone-email-container">
-            <div class="telephone-container">
-                <h3>Telephone</h3>
-                <p>555-0124-5678</p>
+            <h2>Call or Email Us</h2>
+            <div class="telephone-email-container">
+                <div class="telephone-container">
+                    <h3>Telephone</h3>
+                    <p>555-0124-5678</p>
+                </div>
+                <div class="email-container">
+                    <h3>Email</h3>
+                    <a class="link" href="mailto:Contact@buddygym.net">Contact@buddygym.net</a>
+                </div>
             </div>
-            <div class="email-container">
-                <h3>Email</h3>
-                <a  class="link" href="mailto:Contact@buddygym.net">Contact@buddygym.net</a>
+            <h2>Hit Us Up on Our Socials</h2>
+            <div class="socials-body-container">
+                <div class="socials-left-container">
+                    <a id="fb-link" href="https://www.facebook.com" target="_blank"
+                        aria-label="Go to our facebook page (opens in new tab)"><img src="assets/images/fb-logo.png"
+                            alt="Facebook logo"></a>
+                    <a id="twitter-link" href="https://twitter.com/" target="_blank"
+                        aria-label="Go to our twitter page (opens in new tab)"><img src="assets/images/twitter-logo.png"
+                            alt="Twitter logo"></a>
+                </div>
+                <div class="socials-right-container">
+                    <a id="ig-link" href="https://www.instagram.com/" target="_blank"
+                        aria-label="Go to our instagram page (opens in new tab)"><img src="assets/images/insta-logo.png"
+                            alt="Instagram logo"></a>
+                    <a id="yt-link" href="https://www.youtube.com/" target="_blank"
+                        aria-label="Go to our youtube page (opens in new tab)"><img src="assets/images/yt-logo.png"
+                            alt="YouTube logo"></a>
+                </div>
             </div>
-        </div>
-        <h2>Hit Us Up on Our Socials</h2>
-        <div class="socials-body-container">
-            <div class="socials-left-container">
-                <a id="fb-link" href="https://www.facebook.com" target="_blank"
-                    aria-label="Go to our facebook page (opens in new tab)"><img src="assets/images/fb-logo.png" alt="Facebook logo"></a>
-                <a id="twitter-link"  href="https://twitter.com/" target="_blank" aria-label="Go to our twitter page (opens in new tab)"><img src="assets/images/twitter-logo.png" alt="Twitter logo"></a>
-            </div>
-            <div class="socials-right-container">
-                <a  id="ig-link" href="https://www.instagram.com/" target="_blank"
-                    aria-label="Go to our instagram page (opens in new tab)"><img src="assets/images/insta-logo.png" alt="Instagram logo"></a>
-                <a id="yt-link"  href="https://www.youtube.com/" target="_blank"
-                    aria-label="Go to our youtube page (opens in new tab)"><img src="assets/images/yt-logo.png" alt="YouTube logo"></a>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
     <footer>
         <div class="footer-items-container">
             <div class="footer-contact">
@@ -220,7 +284,8 @@
             </div>
             <div class="footer-return-to-top">
                 <button>
-                    <i class="fas fa-arrow-circle-up"><a href="contact.html" aria-label="Return to the top of this page">
+                    <i class="fas fa-arrow-circle-up"><a href="contact.html"
+                            aria-label="Return to the top of this page">
                             <br>
                             <span>Return to Top</span>
                         </a></i>
