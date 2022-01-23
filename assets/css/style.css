@@ -15,6 +15,10 @@ body {
   background-color: var(--bg-black-color);
 }
 
+main {
+  min-height: 82vh;
+}
+
 img {
   border: 2px solid var(--main-yellow-color);
   border-radius: 50%;
@@ -259,8 +263,8 @@ form .btn-submit:hover {
   position: relative;
   background-image: url("../images/hero-sm.png");
   background-size: cover;
-  background-position-x: -200px;
-  height: 60vh;
+  background-position: top;
+  height: 75vh;
   z-index: -1;
   transition: all .5s ease-in-out;
   -moz-transition: all .5s ease-in-out;
@@ -292,7 +296,8 @@ form .btn-submit:hover {
 #facilities h1,
 #classes h1,
 #contact-us h1,
-#contact h1 {
+#contact h1,
+#contact-success h1 {
   text-align: center;
   padding-top: 2%;  
   border-top: 2px solid var(--main-orange-color);
@@ -302,7 +307,8 @@ form .btn-submit:hover {
 #memberships a,
 #classes a,
 #contact-us a,
-#contact a {
+#contact-success a,
+.link {
   text-decoration: none;
   color: var(--main-yellow-color);
   font-weight: 600;
@@ -312,12 +318,28 @@ form .btn-submit:hover {
 #memberships a:hover,
 #classes a:hover,
 #contact-us a:hover,
-#contact a:hover {
+.telephone-email-container a:hover,
+#modal1 h2:hover,
+#modal2 h2:hover,
+#contact-success a:hover {
   background-color: var(--main-yellow-color);
   color: var(--bg-black-color);
 }
 
-#open-modal a:hover {
+#modal1 h2:hover,
+#modal2 h2:hover {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#modal1,
+#modal2 {
+  margin: 0 auto;
+}
+
+#open-modal1 a:hover,
+#open-modal2 a:hover {
   background: none;
 }
 
@@ -395,7 +417,8 @@ form .btn-submit:hover {
 #facilities p,
 #classes p,
 #memberships,
-#contact {
+#contact,
+#contact-success {
   text-align: center;
 }
 
@@ -404,6 +427,23 @@ form .btn-submit:hover {
 
 table {
   margin: 0 auto;
+  border: 1px solid var(--main-yellow-color);
+  max-width: 90vw;
+}
+
+td,
+th {
+  width: 7em;
+  border-right: 1px dashed var(--main-yellow-color);
+  border-top: 1px dashed var(--main-yellow-color);
+}
+
+th {
+  border-bottom: 1px solid var(--main-yellow-color);
+}
+
+.tr-col-left {
+  border-right: 1px solid var(--main-yellow-color);
 }
 
 .location-container p {
@@ -419,9 +459,31 @@ table {
   margin-bottom: 1em;
 }
 
+#contact-success-main {
+  display: flex;
+  height: 82vh;
+  background-image: url("../images/man-dumbbells.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#contact-success-main div {
+  background-color: rgba(0, 0, 0, 0.75);
+  margin: auto;
+  height: fit-content;
+  padding: 0 1rem 1rem;
+  border: 1em solid;
+}
+
 #contact h2 {
   text-decoration: underline;
   margin-top: 1em;
+}
+
+#modal1 > h2,
+#modal2 > h2 {
+  margin-top: 0;
 }
 
 #fb-link,
@@ -490,7 +552,12 @@ table {
   font-weight: 600;
 }
 
-#open-modal a {
+.modal-container {
+  display: flex;
+}
+
+#open-modal1 a,
+#open-modal2 a {
   color:rgb(0, 0, 0);
 }
 
@@ -601,7 +668,6 @@ footer button span {
   .hero-container {
     background-size: cover;
     background-image: url("../images/hero.jpg");
-    background-position-x: 0;
   }
 
   .hero-container p {
@@ -697,6 +763,15 @@ footer button span {
   .radio-br {
     display: none;
   }
+  
+  .location-container p {
+    line-height: 1.5;
+  }
+
+  .location-container div {
+    border: 1px solid var(--main-yellow-color);
+    padding-top: 1em;
+  }
 
   .socials-body-container img {
     height: 7em;
@@ -761,10 +836,6 @@ footer button span {
     font-size: 1em;
   }
 
-  .hero-container {
-    background-position-x: -10px;
-  }  
-
   .hero-container h1 {
     padding-top: 5%;
     font-size: 4em;
@@ -773,12 +844,6 @@ footer button span {
   .facilities-image-container img {
     width: 48%;
     margin: 0 auto;
-  }
-}
-
-@media screen and (min-width: 391px) and (max-width: 490px) {
-  .hero-container {
-    background-position-x: -100px;
   }
 }
 
@@ -838,7 +903,7 @@ footer button span {
   .hero-container {
     background-size: cover;
     background-image: url("../images/hero.jpg");
-    height: 75vh;
+    max-height: 75vh;
   }
 
   .home-p1,
@@ -889,7 +954,12 @@ footer button span {
     margin: 0 auto 0 1rem;
   }
 
-  #open-modal a {
+  .location-container h3 {
+    margin-bottom: 1.5em;
+  }
+
+  #open-modal1 a,
+  #open-modal2 a {
     font-size: 3em;
   }
 
@@ -929,7 +999,7 @@ footer button span {
 
 @media screen and (min-width: 1200px) {
   h1 {
-    font-size: 4rem;
+    font-size: 4em;
   }
   
   body {
@@ -969,7 +1039,7 @@ footer button span {
   }
 
   .facilities-image-container img {
-    width: 24%;
+    width: 20%;
     margin: 0 auto;
   }
 
@@ -1010,24 +1080,47 @@ footer button span {
   #facilities p,
   #classes p {
     margin: 4% 0;
-    font-size: 2em;
   }
 }
 
 @media screen and (min-width: 2000px) {
   
-  h1,
-  h2,
-  h3 {
+  h1 {
+    font-size: 5em;
+  }
+
+  h2 {
     font-size: 4em;
   }
 
-  p {
-    font-size: 2em;
+  h3 {
+    font-size: 3em;
+  }
+
+  p,
+  th,
+  td {
+    font-size: 1.5em;
   }
 
   footer p {
     font-size: 1em;
+  }
+
+  .logo {
+    height: 120px;
+    width: 120px;
+    top: -18px;
+  }
+
+  .nav-menu-container {
+    height: 80px;
+  }
+
+  .nav-menu-container a {
+    font-size: 2em;
+    bottom: -2%;
+    padding: 10px;
   }
 
   .hero-container h1 {
@@ -1046,20 +1139,16 @@ footer button span {
     margin: 4% 0;
   }
 
-  .home-p1 p,
-  .home-p2 p,
-  #facilities p,
-  #classes p,
-  #memberships p {
-    font-size: 2em;
-  }
-
   .home-p3 {
     padding-top: 2em;
    }
 
   .home-p3 p {
     font-size: 2em;
+  }
+
+  .location-container h3 {
+    margin-bottom: 1em;
   }
   
   .modal-window > div {
