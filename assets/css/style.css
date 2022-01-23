@@ -28,6 +28,10 @@ form {
   font-size: 12px;
 }
 
+.uline {
+  text-decoration: underline;
+}
+
 form input {
   margin: -0.5em 0 1em;
   max-width: -webkit-fill-available;
