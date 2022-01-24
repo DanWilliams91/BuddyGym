@@ -39,7 +39,6 @@ form input {
 }
 
 form textarea {
-  /* margin: -0.5em 0 1em; */
   max-width: -webkit-fill-available;
   border: 1px solid var(--main-orange-color);
 }
@@ -642,10 +641,6 @@ footer button span {
   margin: 0 auto;
 }
 
-/* footer i {
-  font-size: 2em;
-} */
-
 .footer-socials {
   color: inherit;
   text-align: right;
@@ -805,10 +800,6 @@ footer button span {
   .footer-return-to-top {
     margin-top: 45px;
   }
-
-  /* .footer-socials {
-    bottom: 35%;
-  } */
 
   .footer-socials br {
     display: none;
