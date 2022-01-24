@@ -38,22 +38,21 @@
                 <div class="nav-join-link">
                     <a href="join.html">Join Us</a>
                 </div>
+                <!--Navbar Menu Icon Start - some code taken from https://codepen.io/ngochuynh/pen/yKrvVZ-->
                 <div class="nav-button-container">
-                    <!--Navbar Menu Icon Start - taken from https://codepen.io/ngochuynh/pen/yKrvVZ-->
-                    <nav id="navbar" class="navigation" role="navigation">
+                    <nav class="navigation">
                         <input id="toggle1" type="checkbox" />
                         <label class="hamburger1" for="toggle1">
-                            <div class="top"></div>
-                            <div class="meat"></div>
-                            <div class="bottom"></div>
+                            <i class="fas fa-bars"></i>
+                            <i class="fas fa-times"></i>
                         </label>
                         <nav class="menu1">
                             <a class="link1 kbutton-nav" href="facilities.html">Facilities & Classes</a>
                             <a class="link2 kbutton-nav active" href="contact.html">Contact & Opening Times</a>
                         </nav>
                     </nav>
-                    <!--Navbar Menu Icon End - taken from https://codepen.io/ngochuynh/pen/yKrvVZ-->
                 </div>
+                <!--Navbar Menu Icon End - taken from https://codepen.io/ngochuynh/pen/yKrvVZ-->
             </div>
             <!-- Navbar for Smaller Screens End-->
             <!-- Navbar for Medium and Larger Screens Start-->
@@ -102,25 +101,25 @@
                             <input type="radio" id="other" name="contact-reasons">
                             <label for="other">Other please specify below</label>
                             <br>
-                            <label class="uline" for="name">Your name</label>
+                            <label class="uline" for="name1">Your name</label>
                             <br>
-                            <input id="name" type="text" required>
+                            <input id="name1" type="text" required>
                             <br>
-                            <label class="uline" for="email">Your email address</label>
+                            <label class="uline" for="email-add">Your email address</label>
                             <br>
-                            <input id="email" type="email" required>
+                            <input id="email-add" type="email" required>
                             <br>
-                            <label class="uline" for="phone">Your best contact number</label>
+                            <label class="uline" for="phone-no">Your best contact number</label>
                             <br>
-                            <input id="phone" type="number" required>
+                            <input id="phone-no" type="number" required>
                             <br>
                             <label class="uline">Choose how you'd prefer us to contact you</label>
                             <br>
-                            <input type="radio" id="email" name="contact-options">
-                            <label for="email" class="contact-options">Email</label>
+                            <input type="radio" id="email-sel" name="contact-options">
+                            <label for="email-sel" class="contact-options">Email</label>
                             <br class="radio-br">
-                            <input type="radio" id="phone" name="contact-options">
-                            <label for="phone" class="contact-options">Telephone</label>
+                            <input type="radio" id="phone-sel" name="contact-options">
+                            <label for="phone-sel" class="contact-options">Telephone</label>
                             <br class="radio-br">
                             <input type="radio" id="either" name="contact-options">
                             <label for="either">No preference</label>
@@ -147,9 +146,9 @@
                             <br>
                             (members only)</h2>
                         <form action="booking-success.html" method="get">
-                            <label class="uline" for="name">Your name</label>
+                            <label class="uline" for="name2">Your name</label>
                             <br>
-                            <input id="name" type="text" required>
+                            <input id="name2" type="text" required>
                             <br>
                             <label class="uline" for="number">Your membership number</label>
                             <br>
@@ -291,18 +290,14 @@
                     <p>1 Gym Lane</p>
                     <p>Exercise City</p>
                     <p>United Kingdom</p>
-                    <p>Tel: 555-0123-4567</p>
-                    <p>Email: Contact@buddygym.net</p>
+                    <p class="footer-p-md">Tel: 555-0123-4567</p>
+                    <p class="footer-p-md">Email: Contact@buddygym.net</p>
                 </address>
             </div>
             <div class="footer-return-to-top">
-                <button>
-                    <i class="fas fa-arrow-circle-up"><a href="contact.html"
-                            aria-label="Return to the top of this page">
-                            <br>
-                            <span>Return to Top</span>
-                        </a></i>
-                </button>
+                <a href="contact.html" aria-label="Return to the top of this page"><i class="fas fa-arrow-circle-up"></i>
+                    <p>Return to Top</p>
+                </a>
             </div>
             <div class="footer-socials">
                 <p class="footer-socials-sm">Social Media Pages:</p>
