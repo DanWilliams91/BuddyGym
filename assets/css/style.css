@@ -19,7 +19,7 @@ main {
   min-height: 82vh;
 }
 
-img {
+.img-main {
   border: 2px solid var(--main-yellow-color);
   border-radius: 50%;
 }
@@ -172,12 +172,12 @@ form .btn-submit:hover {
 /*Hamburger Icon Start---------------------------------------------------------*/
 /*Hamburger Icon Styling Sourced from https://codepen.io/ngochuynh/pen/yKrvVZ with some styling customised*/
 
-.p-menu1 {
+.p-menu-dropdown {
   height: 100%;
 }
 
 /* Hamburger */
-.hamburger1 {
+.hamburger {
   position: absolute;
   top: 10px;
   right: 20px;
@@ -190,7 +190,7 @@ form .btn-submit:hover {
   z-index: 120;
 }
 
-#toggle1 {
+#menu-toggle {
   display: none;
 }
 
@@ -204,20 +204,20 @@ form .btn-submit:hover {
   display: none;
 }
 
-#toggle1:checked+.hamburger1 .fa-bars {
+#menu-toggle:checked+.hamburger .fa-bars {
   display: none;
 }
 
-#toggle1:checked+.hamburger1 .fa-times {
+#menu-toggle:checked+.hamburger .fa-times {
   display: block;
 }
 
-#toggle1:checked~.menu1 {
+#menu-toggle:checked~.menu-dropdown {
   height: 234px;
 }
 
 /* Menu */
-.menu1 {
+.menu-dropdown {
   width: 100%;
   background-color: var(--main-yellow-color);
   margin: 0;
@@ -238,30 +238,30 @@ form .btn-submit:hover {
   transition: all 0.3s ease;
 }
 
-.menu1 a:first-child {
+.menu-dropdown a:first-child {
   margin-top: 57px;
 }
 
-.link1 {
+.menu-link-facilities {
   width: 100%;
   margin: 0;
   padding: 10px 0;
   font: 500 16px 'Open Sans', sans-serif;
 }
 
-.link1:hover {
+.menu-link-facilities:hover {
   font-weight: 500;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
-.link2 {
+.menu-link-contact {
   width: 100%;
   margin: 0;
   font: 500 16px 'Open Sans', sans-serif;
 }
 
-.link2:hover {
+.menu-link-contact:hover {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
@@ -666,7 +666,7 @@ footer button span {
     font-size: 0.8em;
   }
 
-  #toggle1:checked~.menu1 {
+  #menu-toggle:checked~.menu-dropdown {
     height: 160px;
   }
 }
