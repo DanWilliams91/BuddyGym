@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,8 +12,9 @@
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    <!-- Alert Banner Start-->
+    <!--Alert Banner Start-->
     <div class="alert-banner-sm">
         <a href="index.html#sale-info" class="alert-link"><strong>Sale now on! Click to read more!</strong></a>
     </div>
@@ -21,14 +23,14 @@
                 fee! Click to read
                 more!</strong></a>
     </div>
-    <!-- Alert Banner End-->
-    <!-- Navbar Start-->
+    <!--Alert Banner End-->
+    <!--Navbar Start-->
     <nav class="navbar" style="padding: 0;">
         <div class="nav-container">
             <div class="logo-container">
                 <a class="logo" href="index.html" aria-label="Go to home page"></a>
             </div>
-            <!-- Navbar for Smaller Screens Start-->
+            <!--Navbar for Smaller Screens Start-->
             <div class="nav-menu-container nav-menu-sm">
                 <div class="nav-logo-spacing">
                 </div>
@@ -48,14 +50,15 @@
                         </label>
                         <nav class="menu-dropdown">
                             <a class="menu-link-facilities kbutton-nav" href="facilities.html">Facilities & Classes</a>
-                            <a class="menu-link-contact kbutton-nav active" href="contact.html">Contact & Opening Times</a>
+                            <a class="menu-link-contact kbutton-nav active" href="contact.html">Contact & Opening
+                                Times</a>
                         </nav>
                     </nav>
                 </div>
                 <!--Navbar Menu Icon End - taken from https://codepen.io/ngochuynh/pen/yKrvVZ-->
             </div>
-            <!-- Navbar for Smaller Screens End-->
-            <!-- Navbar for Medium and Larger Screens Start-->
+            <!--Navbar for Smaller Screens End-->
+            <!--Navbar for Medium and Larger Screens Start-->
             <div class="nav-menu-container nav-menu-md">
                 <div class="nav-logo-spacing">
                 </div>
@@ -72,23 +75,23 @@
                     <a href="contact.html" class="active">Contact & Opening Times</a>
                 </div>
             </div>
-            <!-- Navbar for Medium and Larger Screens End-->
+            <!--Navbar for Medium and Larger Screens End-->
         </div>
     </nav>
-    <!-- Navbar End-->
+    <!--Main Content Start-->
     <main>
         <section id="contact">
-            <h1>Contact Us</h1>
-            <p>Contacting us is easy, just choose your preferred way to get in touch from the below options.</p>
-            <!-- MODAL 1 STARTS HERE - FROM https://www.labnol.org/code/20083-modal-popup-css-->
+            <h1 class="heading-main centered-text">Contact Us</h1>
+            <p class="centered-text">Contacting us is easy, just choose your preferred way to get in touch from the below options.</p>
+            <!--Contact Modal Start - sourced from https://www.labnol.org/code/20083-modal-popup-css-->
             <div class="modal-container">
-                <a id="modal1" href="#open-modal1">
-                    <h2 class="link">Submit a Form and We'll Get Back to You</h2>
+                <a id="modal-contact" href="#open-modal-contact" class="anchor-main">
+                    <h2 class="centered-text">Submit a Form and We'll Get Back to You</h2>
                 </a>
-                <div id="open-modal1" class="modal-window">
+                <div id="open-modal-contact" class="modal-window">
                     <div>
-                        <a href="#modal-close1" title="Close" class="modal-close">&times;</a>
-                        <h2>Let us get in touch with you</h2>
+                        <a href="#close-modal-contact" title="Close" class="modal-close">&times;</a>
+                        <h2 class="centered-text">Let us get in touch with you</h2>
                         <form action="contact-success.html" method="get">
                             <label class="uline">Query category</label>
                             <br>
@@ -133,16 +136,16 @@
                     </div>
                 </div>
             </div>
-            <!-- MODAL 1 ENDS HERE - FROM https://www.labnol.org/code/20083-modal-popup-css-->
-            <!-- MODAL 2 STARTS HERE - FROM https://www.labnol.org/code/20083-modal-popup-css-->
+            <!--Contact Modal End - sourced from https://www.labnol.org/code/20083-modal-popup-css-->
+            <!--Booking Modal Start - sourced from https://www.labnol.org/code/20083-modal-popup-css-->
             <div class="modal-container">
-                <a id="modal2" href="#open-modal2">
-                    <h2 class="link">Book a Class (members only)</h2>
+                <a id="modal-booking" href="#open-modal-booking" class="anchor-main">
+                    <h2 class="centered-text">Book a Class (members only)</h2>
                 </a>
-                <div id="open-modal2" class="modal-window">
+                <div id="open-modal-booking" class="modal-window">
                     <div>
-                        <a href="#modal-close2" title="Close" class="modal-close">&times;</a>
-                        <h2>Book a class
+                        <a href="#close-modal-booking" title="Close" class="modal-close">&times;</a>
+                        <h2 class="centered-text">Book a class
                             <br>
                             (members only)</h2>
                         <form action="booking-success.html" method="get">
@@ -173,7 +176,6 @@
                             <br class="radio-br">
                             <input type="radio" id="Zumba" name="class-options">
                             <label for="Zumba" class="class-options">Zumba</label>
-                            <!-- <br class="radio-br"> -->
                             <br>
                             <label class="uline" for="date">Class date</label>
                             <br>
@@ -188,21 +190,21 @@
                     </div>
                 </div>
             </div>
-            <!-- MODAL 2 ENDS HERE - FROM https://www.labnol.org/code/20083-modal-popup-css-->
-            <h2>Visit the Club</h2>
+            <!--Booking Modal End - sourced from https://www.labnol.org/code/20083-modal-popup-css-->
+            <h2 class="centered-text">Visit the Club</h2>
             <div class="location-opening-container">
                 <div class="location-container">
-                    <h3>Our Location</h3>
+                    <h3 class="centered-text">Our Location</h3>
                     <div>
-                        <p>BuddyGym</p>
-                        <p>1 Gym Lane</p>
-                        <p>Exercise City</p>
-                        <p>United Kingdom</p>
+                        <p class="centered-text">BuddyGym</p>
+                        <p class="centered-text">1 Gym Lane</p>
+                        <p class="centered-text">Exercise City</p>
+                        <p class="centered-text">United Kingdom</p>
                     </div>
                 </div>
                 <div class="opening-times-container">
-                    <h3>Our Opening Times</h3>
-                    <table>
+                    <h3 class="centered-text">Our Opening Times</h3>
+                    <table class="centered-text">
                         <tr>
                             <th class="tr-col-left">Day</th>
                             <th>Open</th>
@@ -250,19 +252,19 @@
                     </table>
                 </div>
             </div>
-            <h2>Call or Email Us</h2>
-            <div class="telephone-email-container">
+            <h2 class="centered-text">Call or Email Us</h2>
+            <div class="telephone-email-container centered-text">
                 <div class="telephone-container">
                     <h3>Telephone</h3>
                     <p>555-0124-5678</p>
                 </div>
-                <div class="email-container">
-                    <h3>Email</h3>
-                    <a class="link" href="mailto:Contact@buddygym.net">Contact@buddygym.net</a>
+                <div class="email-container centered-text">
+                    <h3 class="centered-text">Email</h3>
+                    <a class="anchor-main" href="mailto:Contact@buddygym.net">Contact@buddygym.net</a>
                 </div>
             </div>
-            <h2>Hit Us Up on Our Socials</h2>
-            <div class="socials-body-container">
+            <h2 class="centered-text">Hit Us Up on Our Socials</h2>
+            <div class="socials-body-container centered-text">
                 <div class="socials-left-container">
                     <a id="fb-link" href="https://www.facebook.com" target="_blank"
                         aria-label="Go to our facebook page (opens in new tab)"><img src="assets/images/fb-logo.png"
@@ -282,6 +284,8 @@
             </div>
         </section>
     </main>
+    <!--Main Content End-->
+    <!--Footer Start-->
     <footer>
         <div class="footer-items-container">
             <div class="footer-contact">
@@ -295,7 +299,8 @@
                 </address>
             </div>
             <div class="footer-return-to-top">
-                <a href="contact.html" aria-label="Return to the top of this page"><i class="fas fa-arrow-circle-up"></i>
+                <a href="contact.html" aria-label="Return to the top of this page"><i
+                        class="fas fa-arrow-circle-up"></i>
                     <p>Return to Top</p>
                 </a>
             </div>
@@ -314,5 +319,7 @@
             </div>
         </div>
     </footer>
+    <!--Footer End-->
 </body>
+
 </html>

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300,400,500,600,700,800&family=Oswald:wght@300&family=Neonderthaw&display=swap');
 
-/*Colors---------------------------------------------------------*/
+/*Colors-----------------------------------------------------------*/
 :root {
   --main-orange-color: #d86313;
   --main-yellow-color: #faf01d;
@@ -8,7 +8,7 @@
   --bg-black-color: #080808;
 }
 
-/*Main---------------------------------------------------------*/
+/*Main-------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: var(--main-orange-color);
@@ -24,12 +24,33 @@ main {
   border-radius: 50%;
 }
 
-form {
-  font-size: 12px;
-}
-
 .uline {
   text-decoration: underline;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.heading-main {
+  padding-top: 2%;  
+  border-top: 2px solid var(--main-orange-color);
+}
+
+.anchor-main {
+  text-decoration: none;
+  color: var(--main-yellow-color);
+  font-weight: 600;
+}
+
+.anchor-main:hover {
+  background-color: var(--main-yellow-color);
+  color: var(--bg-black-color);
+}
+
+/*Forms------------------------------------------------------------*/
+form {
+  font-size: 12px;
 }
 
 form input {
@@ -54,6 +75,7 @@ form .btn-submit:hover {
   color: var(--main-orange-color);
 }
 
+/*Alert Banner-----------------------------------------------------*/
 .alert-banner-sm {
   margin: 0px;
   font-size: 14px;
@@ -82,6 +104,7 @@ form .btn-submit:hover {
   font-size: large;
 }
 
+/*Navbar-----------------------------------------------------------*/
 .navbar {
   border-top: 2px solid var(--main-orange-color);
   border-bottom: 2px solid var(--main-orange-color);
@@ -168,7 +191,7 @@ form .btn-submit:hover {
   width: 85px;
 }
 
-/*Hamburger Icon Start---------------------------------------------------------*/
+/*Hamburger Icon Start---------------------------------------------*/
 /*Hamburger Icon Styling Sourced from https://codepen.io/ngochuynh/pen/yKrvVZ with some styling customised*/
 
 .p-menu-dropdown {
@@ -265,8 +288,7 @@ form .btn-submit:hover {
   transition: all 0.3s ease;
 }
 
-/*Hamburger Icon End---------------------------------------------------------*/
-
+/*Hero Image Start-------------------------------------------------------*/
 .hero-container {
   position: relative;
   background-image: url("../images/hero-sm.png");
@@ -298,66 +320,11 @@ form .btn-submit:hover {
   border-color: rgba(0, 0, 0, 0.4);
   border-radius: 20%;
 }
-
-#sale-info h1,
-#memberships h1,
-#facilities h1,
-#classes h1,
-#contact-us h1,
-#contact h1,
-#contact-success h1 {
-  text-align: center;
-  padding-top: 2%;  
-  border-top: 2px solid var(--main-orange-color);
-}
-
-#sale-info a,
-#memberships a,
-#classes a,
-#contact-us a,
-#contact-success a,
-.link {
-  text-decoration: none;
-  color: var(--main-yellow-color);
-  font-weight: 600;
-}
-
-#sale-info a:hover,
-#memberships a:hover,
-#classes a:hover,
-#contact-us a:hover,
-.telephone-email-container a:hover,
-#modal1 h2:hover,
-#modal2 h2:hover,
-#contact-success a:hover {
-  background-color: var(--main-yellow-color);
-  color: var(--bg-black-color);
-}
-
-#modal1 h2:hover,
-#modal2 h2:hover {
-  width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#modal1,
-#modal2 {
-  margin: 0 auto;
-}
-
-#open-modal1 a:hover,
-#open-modal2 a:hover {
-  background: none;
-}
+/*Hero Image End-------------------------------------------------------*/
 
 .footer-socials a:hover {
   background-color: var(--bg-black-color);
   color: var(--main-yellow-color);
-}
-
-.home-image-container {
-  text-align: center;
 }
 
 .home-image-container img {
@@ -422,14 +389,6 @@ form .btn-submit:hover {
   margin: 1em 0;
 }
 
-#facilities p,
-#classes p,
-#memberships,
-#contact,
-#contact-success {
-  text-align: center;
-}
-
 /*Facilities Page Exclusive Items End----------------------------------------------*/
 /*Contact Page Exclusive Items Start----------------------------------------------*/
 
@@ -489,8 +448,8 @@ th {
   margin-top: 1em;
 }
 
-#modal1 > h2,
-#modal2 > h2 {
+#modal-contact > h2,
+#modal-booking > h2 {
   margin-top: 0;
 }
 
@@ -505,7 +464,7 @@ th {
 }
 
 /*Contact Page Exclusive Items End----------------------------------------------*/
-/*MODAL STARTS HERE - FROM https://www.labnol.org/code/20083-modal-popup-css*/
+/*Modals Start - sourced from https://www.labnol.org/code/20083-modal-popup-css*/
 .modal-window {
   position: fixed;
   background-color: rgba(0, 0, 0, 0.75);
@@ -564,12 +523,17 @@ th {
   display: flex;
 }
 
-#open-modal1 a,
-#open-modal2 a {
+#open-modal-contact a,
+#open-modal-booking a {
   color:rgb(0, 0, 0);
 }
 
-/*MODAL ENDS HERE - FROM https://www.labnol.org/code/20083-modal-popup-css*/
+#modal-contact,
+#modal-booking {
+  margin: 0 auto;
+}
+
+/*Modals End - sourced from https://www.labnol.org/code/20083-modal-popup-css*/
 /*Footer Start---------------------------------------------------------------*/
 
 footer {
@@ -766,12 +730,12 @@ footer button span {
   .home-p1,
   .home-p3 {
     width: 100%;
-    padding-left: 1em;
+    padding-right: 1em;
   }
 
   .home-p2 {
     width: 100%;
-    padding-right: 1em;
+    padding-left: 1em;
     text-align: right;
   }
 
@@ -815,8 +779,8 @@ footer button span {
     margin-bottom: 1.5em;
   }
 
-  #open-modal1 a,
-  #open-modal2 a {
+  #open-modal-contact a,
+  #open-modal-booking a {
     font-size: 3em;
   }
 
@@ -1144,7 +1108,7 @@ footer button span {
     padding-top: 2em;
    }
 
-  .home-p3 p {
+  #sale-info p {
     font-size: 2em;
   }
 
