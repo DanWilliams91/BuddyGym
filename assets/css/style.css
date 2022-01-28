@@ -505,7 +505,10 @@ th {
 
 #contact h2 {
   text-decoration: underline;
-  margin-top: 1em;
+}
+
+#contact>div {
+  margin-bottom: 1em;
 }
 
 #fb-link,
