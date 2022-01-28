@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300,400,500,600,700,800&family=Oswald:wght@300&family=Neonderthaw&display=swap');
 
-/*Colors-----------------------------------------------------------*/
+/*Colors Start*/
 :root {
   --main-orange-color: #d86313;
   --main-yellow-color: #faf01d;
   --bg-orange-color: #ffba75;
   --bg-black-color: #080808;
 }
+/*Colors End*/
 
-/*Main-------------------------------------------------------------*/
+/*Sitewide Styling Start*/
 body {
   font-family: "Open Sans", sans-serif;
   color: var(--main-orange-color);
@@ -47,35 +48,9 @@ main {
   background-color: var(--main-yellow-color);
   color: var(--bg-black-color);
 }
+/*Sitewide Styling End*/
 
-/*Forms------------------------------------------------------------*/
-form {
-  font-size: 12px;
-}
-
-form input {
-  margin: -0.5em 0 1em;
-  max-width: -webkit-fill-available;
-  border: 1px solid var(--main-orange-color);
-}
-
-form textarea {
-  max-width: -webkit-fill-available;
-  border: 1px solid var(--main-orange-color);
-}
-
-form .btn-submit {
-  margin-top: 1em;
-  background-color: var(--main-orange-color);
-  color: white;
-}
-
-form .btn-submit:hover {
-  background-color: white;
-  color: var(--main-orange-color);
-}
-
-/*Alert Banner-----------------------------------------------------*/
+/*Alert Banner Start*/
 .alert-banner-sm {
   margin: 0px;
   font-size: 14px;
@@ -103,11 +78,13 @@ form .btn-submit:hover {
   color: rgb(0, 0, 0);
   font-size: large;
 }
+/*Alert Banner End*/
 
-/*Navbar-----------------------------------------------------------*/
+/*Navbar Start*/
 .navbar {
   border-top: 2px solid var(--main-orange-color);
   border-bottom: 2px solid var(--main-orange-color);
+  padding: 0;
 }
 
 .nav-menu-container a {
@@ -191,14 +168,14 @@ form .btn-submit:hover {
   width: 85px;
 }
 
-/*Hamburger Icon Start---------------------------------------------*/
+/*Hamburger Icon Start*/
 /*Hamburger Icon Styling Sourced from https://codepen.io/ngochuynh/pen/yKrvVZ with some styling customised*/
 
 .p-menu-dropdown {
   height: 100%;
 }
 
-/* Hamburger */
+/*-----Hamburger*/
 .hamburger {
   position: absolute;
   top: 10px;
@@ -238,7 +215,7 @@ form .btn-submit:hover {
   height: 234px;
 }
 
-/* Menu */
+/*-----Menu*/
 .menu-dropdown {
   width: 100%;
   background-color: var(--main-yellow-color);
@@ -287,8 +264,10 @@ form .btn-submit:hover {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+/*Hamburger Icon End*/
+/*Navbar End*/
 
-/*Hero Image Start-------------------------------------------------------*/
+/*Hero Image Start*/
 .hero-container {
   position: relative;
   background-image: url("../images/hero-sm.png");
@@ -320,13 +299,9 @@ form .btn-submit:hover {
   border-color: rgba(0, 0, 0, 0.4);
   border-radius: 20%;
 }
-/*Hero Image End-------------------------------------------------------*/
+/*Hero Image End*/
 
-.footer-socials a:hover {
-  background-color: var(--bg-black-color);
-  color: var(--main-yellow-color);
-}
-
+/*Home Page Exclusive Items Start*/
 .home-image-container img {
   width: 80%;
   text-align: center;
@@ -336,8 +311,13 @@ form .btn-submit:hover {
   text-transform: uppercase;
   font-weight: 600;
 }
+/*Home Page Exclusive Items End*/
 
-/*Home Page Exclusive Items End----------------------------------------------*/
+/*Facilities Page Exclusive Items Start*/
+.facilities-image-container {
+  display: flex;
+  margin: 1em 0;
+}
 
 .boxed-div {
   border-top: 2px solid var(--main-orange-color);
@@ -356,7 +336,9 @@ form .btn-submit:hover {
 .boxed-div strong {
   text-transform: uppercase;
 }
+/*Facilities Page Exclusive Items End*/
 
+/*Join Us Page Exclusive Items Start*/
 #memberships h3 {
   color:var(--bg-black-color);
   text-decoration: underline;
@@ -381,90 +363,10 @@ form .btn-submit:hover {
   margin-left: auto;
   padding: 0 2%;
 }
+/*Join Us Page Exclusive Items End*/
 
-/*Facilities Page Exclusive Items Start----------------------------------------------*/
-
-.facilities-image-container {
-  display: flex;
-  margin: 1em 0;
-}
-
-/*Facilities Page Exclusive Items End----------------------------------------------*/
-/*Contact Page Exclusive Items Start----------------------------------------------*/
-
-table {
-  margin: 0 auto;
-  border: 1px solid var(--main-yellow-color);
-  max-width: 90vw;
-}
-
-td,
-th {
-  width: 7em;
-  border-right: 1px dashed var(--main-yellow-color);
-  border-top: 1px dashed var(--main-yellow-color);
-}
-
-th {
-  border-bottom: 1px solid var(--main-yellow-color);
-}
-
-.tr-col-left {
-  border-right: 1px solid var(--main-yellow-color);
-}
-
-.location-container p {
-  line-height: 0.5;
-}
-
-.opening-times-container {
-  margin-top: 2em;
-}
-
-.socials-body-container img {
-  height: 4em;
-  margin-bottom: 1em;
-}
-
-#contact-success-main {
-  display: flex;
-  height: 82vh;
-  background-image: url("../images/man-dumbbells.jpg");
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#contact-success-main div {
-  background-color: rgba(0, 0, 0, 0.75);
-  margin: auto;
-  height: fit-content;
-  padding: 0 1rem 1rem;
-  border: 1em solid;
-}
-
-#contact h2 {
-  text-decoration: underline;
-  margin-top: 1em;
-}
-
-#modal-contact > h2,
-#modal-booking > h2 {
-  margin-top: 0;
-}
-
-#fb-link,
-#ig-link {
-  margin-right: 1rem;
-}
-
-#twitter-link,
-#yt-link {
-  margin-left: 1rem;
-}
-
-/*Contact Page Exclusive Items End----------------------------------------------*/
-/*Modals Start - sourced from https://www.labnol.org/code/20083-modal-popup-css*/
+/*Contact Page Exclusive Items Start*/
+/*-----Modals Start - sourced from https://www.labnol.org/code/20083-modal-popup-css*/
 .modal-window {
   position: fixed;
   background-color: rgba(0, 0, 0, 0.75);
@@ -533,9 +435,110 @@ th {
   margin: 0 auto;
 }
 
-/*Modals End - sourced from https://www.labnol.org/code/20083-modal-popup-css*/
-/*Footer Start---------------------------------------------------------------*/
+#modal-contact > h2,
+#modal-booking > h2 {
+  margin-top: 0;
+}
 
+/*----------Forms Start*/
+form {
+  font-size: 12px;
+}
+
+form input {
+  margin: -0.5em 0 1em;
+  max-width: -webkit-fill-available;
+  border: 1px solid var(--main-orange-color);
+}
+
+form textarea {
+  max-width: -webkit-fill-available;
+  border: 1px solid var(--main-orange-color);
+}
+
+form .btn-submit {
+  margin-top: 1em;
+  background-color: var(--main-orange-color);
+  color: white;
+}
+
+form .btn-submit:hover {
+  background-color: white;
+  color: var(--main-orange-color);
+}
+/*----------Forms End*/
+/*-----Modals End - sourced from https://www.labnol.org/code/20083-modal-popup-css*/
+
+table {
+  margin: 0 auto;
+  border: 1px solid var(--main-yellow-color);
+  max-width: 90vw;
+}
+
+td,
+th {
+  width: 7em;
+  border-right: 1px dashed var(--main-yellow-color);
+  border-top: 1px dashed var(--main-yellow-color);
+}
+
+th {
+  border-bottom: 1px solid var(--main-yellow-color);
+}
+
+.tr-col-left {
+  border-right: 1px solid var(--main-yellow-color);
+}
+
+.location-container p {
+  line-height: 0.5;
+}
+
+.opening-times-container {
+  margin-top: 2em;
+}
+
+.socials-body-container img {
+  height: 4em;
+  margin-bottom: 1em;
+}
+
+#contact h2 {
+  text-decoration: underline;
+  margin-top: 1em;
+}
+
+#fb-link,
+#ig-link {
+  margin-right: 1rem;
+}
+
+#twitter-link,
+#yt-link {
+  margin-left: 1rem;
+}
+/*Contact Page Exclusive Items End*/
+
+/*Contact Success and Booking Success Pages Exclusive Items Start*/
+#contact-success-main {
+  display: flex;
+  height: 82vh;
+  background-image: url("../images/man-dumbbells.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#contact-success-main div {
+  background-color: rgba(0, 0, 0, 0.75);
+  margin: auto;
+  height: fit-content;
+  padding: 0 1rem 1rem;
+  border: 1em solid;
+}
+/*Contact Success and Booking Success Pages Exclusive Items End*/
+
+/*Footer Start*/
 footer {
   color: black;
   display: flex;
@@ -620,9 +623,13 @@ footer button span {
   padding: 4px;
 }
 
-/*Footer End-----------------------------------------------------------------*/
-/*Media Queries--------------------------------------------------------------*/
+.footer-socials a:hover {
+  background-color: var(--bg-black-color);
+  color: var(--main-yellow-color);
+}
+/*Footer End*/
 
+/*Media Queries Start*/
 @media screen and (max-width: 300px) {
   .nav-menu-container a {
     padding: 0;
@@ -739,9 +746,7 @@ footer button span {
     text-align: right;
   }
 
-  .home-p1-img1-container,
-  .home-p2-img2-container,
-  .home-p3-img3-container {
+  .home-p-img-container {
     margin: 0 2em;
   }
 
@@ -823,9 +828,7 @@ footer button span {
     margin-bottom: 1em;
   }
 
-  .home-p1-img1-container,
-  .home-p2-img2-container,
-  .home-p3-img3-container {
+  .home-p-img-container {
     display: flex;
   }
 
@@ -1125,3 +1128,4 @@ footer button span {
     padding: 0 20px;
   }
 }
+/*Media Queries End*/
