@@ -55,9 +55,9 @@
         * <a href="assets/docs/wireframes/join-page-tablet.png" target="_blank">Tablet version.</a>
         * <a href="assets/docs/wireframes/join-page-desktop.png" target="_blank">Desktop version.</a>
     * Facilities & Classes Page
-        * <a href="assets/docs/wireframes/facilities-page-mobile.png" target="_blank">Mobile version.</a>
-        * <a href="assets/docs/wireframes/facilities-page-tablet.png" target="_blank">Tablet version.</a>
-        * <a href="assets/docs/wireframes/facilities-page-desktop.png" target="_blank">Desktop version.</a>
+        * <a href="assets/docs/wireframes/facilities-classes-page-mobile.png" target="_blank">Mobile version.</a>
+        * <a href="assets/docs/wireframes/facilities-classes-page-tablet.png" target="_blank">Tablet version.</a>
+        * <a href="assets/docs/wireframes/facilities-classes-page-desktop.png" target="_blank">Desktop version.</a>
     * Contact Us Page
         * <a href="assets/docs/wireframes/contact-page-mobile.png" target="_blank">Mobile version.</a>
         * <a href="assets/docs/wireframes/contact-page-tablet.png" target="_blank">Tablet version.</a>
