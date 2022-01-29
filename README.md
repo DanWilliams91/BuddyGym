@@ -142,7 +142,7 @@
     b)	As a Returning Visitor, I want to understand the various options on offer in relation to membership costs.   
     * All visitors to the website are greeted with an <a href="assets/docs/user-stories-imgs/rv-b-i.png" target="_blank">alert bar</a> at the top of each page, which highlights a particular offer that the organisation has. Clicking on this will take the user to the “Join Us for FREE” section of the Home page, which details the offer.
     * In addition to the organisation’s current offer, <a href="assets/docs/user-stories-imgs/rv-b-ii.png" target="_blank">membership types</a> are outlined clearly within the “Join Us” page. The main differences, benefits and terms of these membership types are also included for the user to informatively compare each option.
-    * iii.	Upon visiting the “Join Us” page to compare membership options, the top of the page highlights that the organisation is offering a no-obligation <a href="assets/docs/user-stories-imgs/rv-b-iii.png" target="_blank">free trial</a> to those unsure of what memberships have to offer. This helps users who aren’t persuaded by the website to contact the organisation directly, which would enable the organisation to directly answer any questions the user may have.
+    * Upon visiting the “Join Us” page to compare membership options, the top of the page highlights that the organisation is offering a no-obligation <a href="assets/docs/user-stories-imgs/rv-b-iii.png" target="_blank">free trial</a> to those unsure of what memberships have to offer. This helps users who aren’t persuaded by the website to contact the organisation directly, which would enable the organisation to directly answer any questions the user may have.
 
     <br>
 
