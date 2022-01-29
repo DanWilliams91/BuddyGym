@@ -178,7 +178,7 @@ main {
 /*-----Hamburger*/
 .hamburger {
   position: absolute;
-  top: 10px;
+  top: 6px;
   right: 20px;
   height: 45px;
   width: 45px;
@@ -187,6 +187,10 @@ main {
   grid-template-rows: repeat(3, 1fr);
   justify-items: center;
   z-index: 120;
+}
+
+.menu-active {
+  border: 2px solid var(--main-orange-color);
 }
 
 #menu-toggle {
@@ -212,7 +216,7 @@ main {
 }
 
 #menu-toggle:checked~.menu-dropdown {
-  height: 234px;
+  height: 186px;
 }
 
 /*-----Menu*/
@@ -241,10 +245,14 @@ main {
   margin-top: 57px;
 }
 
-.menu-link-facilities {
+.menu-dropdown a {
+  padding: 0;
+}
+
+.menu-link-facilities,
+.menu-link-contact {
   width: 100%;
   margin: 0;
-  padding: 10px 0;
   font: 500 16px 'Open Sans', sans-serif;
 }
 
@@ -640,7 +648,7 @@ footer button span {
   }
 
   #menu-toggle:checked~.menu-dropdown {
-    height: 160px;
+    height: 166px;
   }
 }
 
