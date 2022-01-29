@@ -232,7 +232,7 @@
 ### Code
 * Code for the modals was sourced from a page by <a href="https://www.labnol.org/code/20083-modal-popup-css" target="_blank">labnol.org</a> and was customized by the website developer.
 * The code used for the dropdown menu, when viewing on smaller device sizes, was taken from <a href="https://codepen.io/ngochuynh/pen/yKrvVZ" target="_blank">codepen.io</a> and customised with class name improvements and the replacement of some of the content with an icon provided by <a href="https://fontawesome.com/" target="_blank">Font Awesome.</a>
-* The enclosure of footer contact information in an "address" tag was done based on a tip from <a href="https://www.w3schools.com/tags/tag_footer.asp" target="_blank">W3Schools.</a>
+* The enclosure of footer contact information in an "address" tag was done based on a tip from <a href="https://www.w3schools.com/tags/tag_address.asp" target="_blank">W3Schools.</a>
 * Instructions for creating custom variables in CSS, which was used to set the main colours used throughout the website, were taken from <a href="https://drafts.csswg.org/css-variables/" target="_blank">this page.</a>
 
 ### Content
