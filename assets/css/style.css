@@ -999,8 +999,8 @@ footer button span {
   .nav-menu-container a {
     font-size: 1.5em;
     position: relative;
-    bottom: 12%;
-    padding: 4px;
+    bottom: 13%;
+    padding: 3px;
   }
 
   .nav-menu-container a:hover {
