@@ -88,7 +88,7 @@
 5. <a href="https://github.com/" target="_blank">GitHub:</a>
     * GitHub is used to store the projects’ code after being pushed from Git.
 6. <a href="https://en.wikipedia.org/wiki/Microsoft_Paint" target="_blank">Microsoft Paint:</a>
-    * Microsoft Paint was used to create the logo, resizing images and editing photos for the website.
+    * Microsoft Paint was used to create the logo, resize images and edit photos for the website.
 7. <a href="https://www.microsoft.com/en-us/microsoft-365/word" target="_blank">Microsoft Word:</a>
     * Microsoft Word was used to crop the logo into a circular image.
 8. <a href="https://balsamiq.com/wireframes/" target="_blank">Balsamiq:</a>
@@ -121,34 +121,34 @@
     b)	As a First Time Visitor, I want to be able to easily navigate throughout the site to find the content I’m looking for.
     * Upon first visiting the site, the visitor can clearly see the <a href="assets/docs/user-stories-imgs/ftv-b-i.png" target="_blank">navbar</a> at the top of the screen, which outlines the different pages available throughout the site. This enables the first time visitor to choose which section to visit, depending on what it is they’re looking for.
     * The navbar, which is situated at the top of every page of the website, <a href="assets/docs/user-stories-imgs/ftv-b-ii.png" target="_blank">highlights</a> which page the user is currently on. This improves the user’s confidence when navigating the site.
-    * Many of the site’s pages include links to other areas of the website, such as the “contact us” links present on the <a href="assets/docs/user-stories-imgs/ftv-b-iii.png" target="_blank">Home page</a> and the <a href="assets/docs/user-stories-imgs/rv-a-ii(2).png" target="_blank">Join Us</a> pages. When these links are clicked on, the user is taken to the relevant page or section—depending on the link selected—and is able to see exactly where they’ve arrived on the site, thanks to the aforementioned navbar highlighting.
+    * Many of the site’s pages include links to other areas of the website, such as the “contact us” links present on the <a href="assets/docs/user-stories-imgs/ftv-b-iii.png" target="_blank">Home Page</a> and the <a href="assets/docs/user-stories-imgs/rv-a-ii(2).png" target="_blank">Join Us Page.</a>  When these links are clicked on, the user is taken to the relevant page or section—depending on the link selected—and is able to see exactly where they’ve arrived on the site, thanks to the aforementioned navbar highlighting.
 
     <br>
     
     c)	As a First Time Visitor, I want to know where the organisation is based.
     * Each page of the website contains a footer at the bottom of the page, which contains the organisation's <a href="assets/docs/user-stories-imgs/ftv-c-i.png" target="_blank">address details.</a>
-    * For first time visitors who have not yet scrolled to the bottom of any of the pages, the Contact & Opening Times page contains the gym’s <a href="assets/docs/user-stories-imgs/ftv-c-ii.png" target="_blank">address details.</a> This page is where new visitors would intuitively navigate to when looking for the organisation’s address.
+    * For first time visitors who have not yet scrolled to the bottom of any of the pages, the Contact & Opening Times Page contains the gym’s <a href="assets/docs/user-stories-imgs/ftv-c-ii.png" target="_blank">address details.</a> This page is where new visitors would intuitively navigate to when looking for the organisation’s address.
 
 <br>
 
 * #### Returning Visitor Goals
     a)	As a Returning Visitor, I want to be able to easily and quickly find out how to contact the organisation.   
     * All visitors to the site, including returning visitors, are clearly able to see a <a href="assets/docs/user-stories-imgs/rv-a-i.png" target="_blank">“Contact & Opening Times”</a> section on the navbar, situated at the top of each page. Selecting this link will take the user to the page which details multiple methods of contacting the organisation.
-    * In addition to the “Contact & Opening Times” page of the website, two of the other pages contain links to this page with the text of “contact us” (the <a href="assets/docs/user-stories-imgs/rv-a-ii(1).png" target="_blank">Home Page</a> and the <a href="assets/docs/user-stories-imgs/rv-a-ii(2).png" target="_blank">Join Us Page</a>), which make it easy for any user to establish how to contact the organisation.
+    * In addition to the Contact & Opening Times Page of the website, two of the other pages contain links to this page with the text of “contact us” (the <a href="assets/docs/user-stories-imgs/rv-a-ii(1).png" target="_blank">Home Page</a> and the <a href="assets/docs/user-stories-imgs/rv-a-ii(2).png" target="_blank">Join Us Page</a>), which make it easy for any user to establish how to contact the organisation.
     * The footer, situated at the bottom of every page, contains the organisation’s <a href="assets/docs/user-stories-imgs/rv-a-iii.png" target="_blank">address</a> and, on medium and larger screens only, its telephone number and email address, which make it clear to any user that there are various methods of contacting the organisation. In addition to this, the footer also contains links to the organisation’s social media pages.
 
     <br>
 
     b)	As a Returning Visitor, I want to understand the various options on offer in relation to membership costs.   
-    * All visitors to the website are greeted with an <a href="assets/docs/user-stories-imgs/rv-b-i.png" target="_blank">alert bar</a> at the top of each page, which highlights a particular offer that the organisation has. Clicking on this will take the user to the “Join Us for FREE” section of the Home page, which details the offer.
-    * In addition to the organisation’s current offer, <a href="assets/docs/user-stories-imgs/rv-b-ii.png" target="_blank">membership types</a> are outlined clearly within the “Join Us” page. The main differences, benefits and terms of these membership types are also included for the user to informatively compare each option.
-    * Upon visiting the “Join Us” page to compare membership options, the top of the page highlights that the organisation is offering a no-obligation <a href="assets/docs/user-stories-imgs/rv-b-iii.png" target="_blank">free trial</a> to those unsure of what memberships have to offer. This helps users who aren’t persuaded by the website to contact the organisation directly, which would enable the organisation to directly answer any questions the user may have.
+    * All visitors to the website are greeted with an <a href="assets/docs/user-stories-imgs/rv-b-i.png" target="_blank">alert bar</a> at the top of each page, which highlights a particular offer that the organisation has. Clicking on this will take the user to the “Join Us for FREE” section of the Home Page, which details the offer.
+    * In addition to the organisation’s current offer, <a href="assets/docs/user-stories-imgs/rv-b-ii.png" target="_blank">membership types</a> are outlined clearly within the Join Us Page. The main differences, benefits and terms of these membership types are also included for the user to informatively compare each option.
+    * Upon visiting the Join Us Page to compare membership options, the top of the page highlights that the organisation is offering a no-obligation <a href="assets/docs/user-stories-imgs/rv-b-iii.png" target="_blank">free trial</a> to those unsure of what memberships have to offer. This helps users who aren’t persuaded by the website to contact the organisation directly, which would enable the organisation to directly answer any questions the user may have.
 
     <br>
 
     c)	As a Returning Visitor, I want to know why this organisation differs from others in relation to their facilities.
-    * Visitors returning to the site to learn more about the organisation’s gym facilities can visit the <a href="assets/docs/user-stories-imgs/rv-c-i.png" target="_blank">“Facilities & Classes”</a> page of the website. This page outlines some of the facilities that the organisation has to offer.
-    * Also available from a <a href="assets/docs/user-stories-imgs/rv-c-ii(1).png" target="_blank">link</a> within the “Facilities & Classes” page is an <a href="assets/docs/timetable.pdf" target="_blank">external pdf document</a> which outlines the classes available for the week. This shows visitors what type of classes gym members are available to attend.
+    * Visitors returning to the site to learn more about the organisation’s gym facilities can visit the <a href="assets/docs/user-stories-imgs/rv-c-i.png" target="_blank">Facilities & Classes Page</a> of the website. This page outlines some of the facilities that the organisation has to offer.
+    * Also available from a <a href="assets/docs/user-stories-imgs/rv-c-ii(1).png" target="_blank">link</a> within the Facilities & Classes Page is an <a href="assets/docs/timetable.pdf" target="_blank">external pdf document</a> which outlines the classes available for the week. This shows visitors what type of classes gym members are available to attend.
 
 <br>
 
@@ -161,13 +161,13 @@
     b)	As a Frequent User, I want to view the class timetables and know how to attend classes.
     * The navbar contains a <a href="assets/docs/user-stories-imgs/fu-b-i.png" target="_blank">link</a> entitled “Facilities & Classes,” which makes it easy for any user to find the page which contains information on the organisation’s classes.
     * At the bottom of this page, the heading <a href="assets/docs/user-stories-imgs/fu-b-ii.png" target="_blank">“Classes”</a> is easy to find. Within this section, a link is provided which takes the user to an <a href="assets/docs/timetable.pdf" target="_blank">external pdf document.</a> This document outlines which classes are currently available and at which times they are run.
-    * Below the link to the class timetable, a <a href="assets/docs/user-stories-imgs/fu-b-iii(1).png" target="_blank">paragraph</a> explains that members must book classes to attend. A link to the contact page is provided within this paragraph, which contains a <a href="assets/docs/user-stories-imgs/fu-b-iii(2).png" target="_blank">highlighted link</a> that includes the words “Book a Class.”
+    * Below the link to the class timetable, a <a href="assets/docs/user-stories-imgs/fu-b-iii(1).png" target="_blank">paragraph</a> explains that members must book classes to attend. A link to the Contact Page is provided within this paragraph, which contains a <a href="assets/docs/user-stories-imgs/fu-b-iii(2).png" target="_blank">highlighted link</a> that includes the words “Book a Class.”
     
     <br>
 
     c)	As a Frequent User, I want to know if the organisation has any social media pages so that I can keep updated with any announcements.
     * The footer of each page of the website informs the user that the organisation has pages with <a href="assets/docs/user-stories-imgs/fu-c-i.png" target="_blank">four different social media platforms.</a>
-    * The “Contact & Opening Times” page also contains <a href="assets/docs/user-stories-imgs/fu-c-ii.png" target="_blank">large images</a> to further highlight the existence of the organisation’s social media pages.
+    * The Contact & Opening Times Page also contains <a href="assets/docs/user-stories-imgs/fu-c-ii.png" target="_blank">large images</a> to further highlight the existence of the organisation’s social media pages.
     * Each icon or image of the social media platforms acts as an anchor link, which navigates the user to the organisation’s relevant social media page. These links are opened in a new browser tab/window to ensure the user can return to the organisation’s page with ease.
 
 ### Further Testing
@@ -183,7 +183,7 @@
     * The secondary font of ‘cursive’ loads on mobile devices and is pleasing enough to look at, and positive feedback obtained from third parties is consistent in relation to this font. No attempt has, therefore, been made to address this as the ‘cursive’ font has no negative effect on the aesthetics of the site.
 * A horizontal scroll bar was present on each page.
     * This was investigated and it was concluded that the alert banner was the cause due to its styling taking up 100% of the viewport width. This styling has been removed and the horizontal scroll bar is no longer present.
-* On some devices with a proportionally larger viewport height, the content of some pages—particularly the Contact page—was not enough to fill the entire vertical viewport, resulting in the footer being part-way up the page with a space below it.
+* On some devices with a proportionally larger viewport height, the content of some pages—particularly the Contact Page—was not enough to fill the entire vertical viewport, resulting in the footer being part-way up the page with a space below it.
     * Each page’s main content has been enclosed in a "main" tag, which has been styled to take up a minimum viewport height of 82%. Whilst this results in a space between the content and footer on some devices, the cosmetic element of the site is improved.
 
 ## Further Development
