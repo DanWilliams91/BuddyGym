@@ -188,7 +188,7 @@
 
 ## Further Development
 <hr>
-<p>Further improvement of the website can be achieved by using comparative programming languages, such as JavaScript, for example. Areas of improvement which can be gained by using these methods include the following:</p>
+<p>Further improvement of the website can be achieved by using imperative programming languages, such as JavaScript, for example. Areas of improvement which can be gained by using these methods include the following:</p>
 
 * Having a single navbar within the code which is responsive based on screen sizes, rather than the current method of having two separate navbars which are either displayed or not displayed, depending on the screen size of the device being used.
     * Similar improvements can also be made to areas of the rest of the site, such as the number of images displayed depending on screen sizes.
