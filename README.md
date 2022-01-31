@@ -3,7 +3,7 @@
 <p>The BuddyGym website represents a website of a fictional organisation named BuddyGym.</p>
 <p>BuddyGym is a gym which offers incentives for potential members to sign up with a friend or family member. In doing so, members will enjoy a waived joining fee whilst BuddyGym gains an additional membership signup.</p>
 <p>The BuddyGym website is designed to be responsive and accessible on a range of device sizes. The design approach was to begin the development of the webpage for smaller screen sizes, such as mobile phones, with responsivity then being incrementally added for display on medium-and-larger-sized screens.</p>
-<p>The purpose of the website, in terms of the organisation’s objectives, is to generate membership sales and to provide its members with a variety of contact options, thus improving the satisfaction of its existing members. The website also allows new visitors to learn about the organisation and what it has to offer, as well as providing them with a good first impression of the organisation based on its clear website content with minimal—if any—grammatical errors. Returning visitors who want to learn more about the organisation are easily able to contact the organisation, either within the website itself or via the links to the organisation’s social media pages, located throughout the site. Frequent users’ needs are also addressed, with links to class timetables—updated on a weekly basis—and a facility to book a class or contact the organisation for any other reason.</p>
+<p>The purpose of the website, in terms of the organisation’s objectives, is to generate membership sales and to provide its members with a variety of contact options, thus improving the satisfaction of its existing members. The website also allows new visitors to learn about the organisation and what it has to offer, as well as providing them with a good first impression of the organisation based on its clear website content with minimal—if any—grammatical errors. Returning visitors who want to learn more about the organisation, such as tentative members who may have originally left the site to further consider the option of signing up, are easily able to contact the organisation, either within the website itself or via the links to the organisation’s social media pages located throughout the site. Existing members’ needs are also addressed, with links to class timetables—updated on a weekly basis—and a facility to book a class or contact the organisation for any other reason.</p>
 <p>The website is designed to include information relevant to all user categories, including membership prices, information on available facilities, sale information, contact information and the ability for users to directly contact the organisation using forms within the website.</p>
 
 <!--Below image sourced from sourced from http://ami.responsivedesign.is/-->
@@ -11,12 +11,12 @@
 
 ## User Experience (UX)
 * ### User Stories
-    * #### First Time Visitor Goals
-        a)	As a First Time Visitor, I want to easily and quickly understand the main purpose of the site and learn what the organisation has to offer.
+    * #### First-Time Visitor Goals
+        a)	As a first-time visitor, I want to easily and quickly understand the main purpose of the site and learn what the organisation has to offer.
 
-        b)	As a First Time Visitor, I want to be able to easily navigate throughout the site to find the content I’m looking for.
+        b)	As a first-time visitor, I want to be able to easily navigate throughout the site to find the content I’m looking for.
 
-        c)	As a First Time Visitor, I want to know where the organisation is based.
+        c)	As a first-time visitor, I want to know where the organisation is based.
 
     * #### Tentative Member Goals
         a)	As a tentative member, I want to be able to easily and quickly find out how to contact the organisation.
@@ -109,18 +109,18 @@
 
 ### Testing User Stories from User Experience (UX) Section
 
-* #### First Time Visitor Goals
-    a)	As a First Time Visitor, I want to easily and quickly understand the main purpose of the site and learn what the organisation has to offer.   
+* #### First-Time Visitor Goals
+    a)	As a first-time visitor, I want to easily and quickly understand the main purpose of the site and learn what the organisation has to offer.   
     * Upon first visiting the <a href="assets/docs/user-stories-imgs/ftv-a-i.png" target="_blank">site,</a> the visitor is greeted with the words “BuddyGym” overlaying a woman wearing boxing gloves, which clearly conveys that the site is owned by a gym.
     * Upon first visiting the site, the visitor is greeted with a call to action in the form of an <a href="assets/docs/user-stories-imgs/ftv-a-ii.png" target="_blank">alert bar</a> at the top of the screen, which highlights an offer which the organisation currently has for prospective members.
     * Upon first visiting the site, the visitor can see the words <a href="assets/docs/user-stories-imgs/ftv-a-iii.png" target="_blank">“Join Us for FREE”</a> at the bottom of the screen. This shows that the gym currently has a sale on offer and encourages the user to scroll down to read more.
 
-    b)	As a First Time Visitor, I want to be able to easily navigate throughout the site to find the content I’m looking for.
+    b)	As a first-time visitor, I want to be able to easily navigate throughout the site to find the content I’m looking for.
     * Upon first visiting the site, the visitor can clearly see the <a href="assets/docs/user-stories-imgs/ftv-b-i.png" target="_blank">navbar</a> at the top of the screen, which outlines the different pages available throughout the site. This enables the first time visitor to choose which section to visit, depending on what it is they’re looking for.
     * The navbar, which is situated at the top of every page of the website, <a href="assets/docs/user-stories-imgs/ftv-b-ii.png" target="_blank">highlights</a> which page the user is currently viewing. This improves the user’s confidence when navigating the site.
     * Many of the site’s pages include links to other areas of the website, such as the “contact us” links present on the <a href="assets/docs/user-stories-imgs/ftv-b-iii.png" target="_blank">Home Page</a> and the <a href="assets/docs/user-stories-imgs/rv-a-ii(2).png" target="_blank">Join Us Page.</a>  When these links are clicked on, the user is taken to the relevant page or section—depending on the link selected—and is able to see exactly where they’ve arrived on the site, thanks to the aforementioned navbar highlighting.
     
-    c)	As a First Time Visitor, I want to know where the organisation is based.
+    c)	As a first-time visitor, I want to know where the organisation is based.
     * Each page of the website contains a footer at the bottom of the page, which contains the organisation's <a href="assets/docs/user-stories-imgs/ftv-c-i.png" target="_blank">address details.</a>
     * For first time visitors who have not yet scrolled to the bottom of any of the pages, the Contact & Opening Times Page contains the gym’s <a href="assets/docs/user-stories-imgs/ftv-c-ii.png" target="_blank">address details.</a> This page is where new visitors would intuitively navigate to when looking for the organisation’s address.
 
