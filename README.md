@@ -10,7 +10,6 @@
 
 <!--Below image sourced from sourced from http://ami.responsivedesign.is/-->
 ![Screenshot of home page on different screen sizes](assets/docs/amiresponsive.png)
-<hr>
 
 ## User Experience (UX)
 * ### User Stories
@@ -63,12 +62,10 @@
         * <a href="assets/docs/wireframes/contact-page-tablet.png" target="_blank">Tablet version.</a>
         * <a href="assets/docs/wireframes/contact-page-desktop.png" target="_blank">Desktop version.</a>
 ## Features
-<hr>
 
 * Responsive on all device sizes.
 
 ## Technologies Used
-<hr>
 
 ### Languages Used
 
@@ -95,7 +92,6 @@
     * Balsamiq was used to create the wireframes during the design process.
 
 ## Testing
-<hr>
 <p>The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.</p>
 
 * <a href="https://validator.w3.org/" target="_blank">W3C Markup Validator</a>
@@ -116,20 +112,14 @@
     * Upon first visiting the site, the visitor is greeted with a call to action in the form of an <a href="assets/docs/user-stories-imgs/ftv-a-ii.png" target="_blank">alert bar</a> at the top of the screen, which highlights an offer which the organisation currently has for prospective members.
     * Upon first visiting the site, the visitor can see the words <a href="assets/docs/user-stories-imgs/ftv-a-iii.png" target="_blank">“Join Us for FREE”</a> at the bottom of the screen. This shows that the gym currently has a sale on offer and encourages the user to scroll down to read more.
 
-    <br>
-    
     b)	As a First Time Visitor, I want to be able to easily navigate throughout the site to find the content I’m looking for.
     * Upon first visiting the site, the visitor can clearly see the <a href="assets/docs/user-stories-imgs/ftv-b-i.png" target="_blank">navbar</a> at the top of the screen, which outlines the different pages available throughout the site. This enables the first time visitor to choose which section to visit, depending on what it is they’re looking for.
     * The navbar, which is situated at the top of every page of the website, <a href="assets/docs/user-stories-imgs/ftv-b-ii.png" target="_blank">highlights</a> which page the user is currently on. This improves the user’s confidence when navigating the site.
     * Many of the site’s pages include links to other areas of the website, such as the “contact us” links present on the <a href="assets/docs/user-stories-imgs/ftv-b-iii.png" target="_blank">Home Page</a> and the <a href="assets/docs/user-stories-imgs/rv-a-ii(2).png" target="_blank">Join Us Page.</a>  When these links are clicked on, the user is taken to the relevant page or section—depending on the link selected—and is able to see exactly where they’ve arrived on the site, thanks to the aforementioned navbar highlighting.
-
-    <br>
     
     c)	As a First Time Visitor, I want to know where the organisation is based.
     * Each page of the website contains a footer at the bottom of the page, which contains the organisation's <a href="assets/docs/user-stories-imgs/ftv-c-i.png" target="_blank">address details.</a>
     * For first time visitors who have not yet scrolled to the bottom of any of the pages, the Contact & Opening Times Page contains the gym’s <a href="assets/docs/user-stories-imgs/ftv-c-ii.png" target="_blank">address details.</a> This page is where new visitors would intuitively navigate to when looking for the organisation’s address.
-
-<br>
 
 * #### Returning Visitor Goals
     a)	As a Returning Visitor, I want to be able to easily and quickly find out how to contact the organisation.   
@@ -137,33 +127,23 @@
     * In addition to the Contact & Opening Times Page of the website, two of the other pages contain links to this page with the text of “contact us” (the <a href="assets/docs/user-stories-imgs/rv-a-ii(1).png" target="_blank">Home Page</a> and the <a href="assets/docs/user-stories-imgs/rv-a-ii(2).png" target="_blank">Join Us Page</a>), which make it easy for any user to establish how to contact the organisation.
     * The footer, situated at the bottom of every page, contains the organisation’s <a href="assets/docs/user-stories-imgs/rv-a-iii.png" target="_blank">address</a> and, on medium and larger screens only, its telephone number and email address, which make it clear to any user that there are various methods of contacting the organisation. In addition to this, the footer also contains links to the organisation’s social media pages.
 
-    <br>
-
     b)	As a Returning Visitor, I want to understand the various options on offer in relation to membership costs.   
     * All visitors to the website are greeted with an <a href="assets/docs/user-stories-imgs/rv-b-i.png" target="_blank">alert bar</a> at the top of each page, which highlights a particular offer that the organisation has. Clicking on this will take the user to the “Join Us for FREE” section of the Home Page, which details the offer.
     * In addition to the organisation’s current offer, <a href="assets/docs/user-stories-imgs/rv-b-ii.png" target="_blank">membership types</a> are outlined clearly within the Join Us Page. The main differences, benefits and terms of these membership types are also included for the user to informatively compare each option.
     * Upon visiting the Join Us Page to compare membership options, the top of the page highlights that the organisation is offering a no-obligation <a href="assets/docs/user-stories-imgs/rv-b-iii.png" target="_blank">free trial</a> to those unsure of what memberships have to offer. This helps users who aren’t persuaded by the website to contact the organisation directly, which would enable the organisation to directly answer any questions the user may have.
 
-    <br>
-
     c)	As a Returning Visitor, I want to know why this organisation differs from others in relation to their facilities.
     * Visitors returning to the site to learn more about the organisation’s gym facilities can visit the <a href="assets/docs/user-stories-imgs/rv-c-i.png" target="_blank">Facilities & Classes Page</a> of the website. This page outlines some of the facilities that the organisation has to offer.
     * Also available from a <a href="assets/docs/user-stories-imgs/rv-c-ii(1).png" target="_blank">link</a> within the Facilities & Classes Page is an <a href="assets/docs/timetable.pdf" target="_blank">external pdf document</a> which outlines the classes available for the week. This shows visitors what type of classes gym members are available to attend.
-
-<br>
 
 * #### Frequent User Goals
     a)	As a Frequent User, I want to view the organisation’s opening times.
     * The navbar contains a <a href="assets/docs/user-stories-imgs/fu-a-i(1).png" target="_blank">link</a> entitled “Contact & Opening Times,” which makes it easy for any user to find the organisation’s opening times on the website. The link takes the user to a page which contains an easy-to-read <a href="assets/docs/user-stories-imgs/fu-a-i(2).png" target="_blank">table</a> which outlines the organisation’s usual opening times.
 
-    <br>
-
     b)	As a Frequent User, I want to view the class timetables and know how to attend classes.
     * The navbar contains a <a href="assets/docs/user-stories-imgs/fu-b-i.png" target="_blank">link</a> entitled “Facilities & Classes,” which makes it easy for any user to find the page which contains information on the organisation’s classes.
     * At the bottom of this page, the heading <a href="assets/docs/user-stories-imgs/fu-b-ii.png" target="_blank">“Classes”</a> is easy to find. Within this section, a link is provided which takes the user to an <a href="assets/docs/timetable.pdf" target="_blank">external pdf document.</a> This document outlines which classes are currently available and at which times they are run.
     * Below the link to the class timetable, a <a href="assets/docs/user-stories-imgs/fu-b-iii(1).png" target="_blank">paragraph</a> explains that members must book classes to attend. A link to the Contact Page is provided within this paragraph, which contains a <a href="assets/docs/user-stories-imgs/fu-b-iii(2).png" target="_blank">highlighted link</a> that includes the words “Book a Class.”
-    
-    <br>
 
     c)	As a Frequent User, I want to know if the organisation has any social media pages so that I can keep updated with any announcements.
     * The footer of each page of the website informs the user that the organisation has pages with <a href="assets/docs/user-stories-imgs/fu-c-i.png" target="_blank">four different social media platforms.</a>
@@ -187,7 +167,6 @@
     * Each page’s main content has been enclosed in a "main" tag, which has been styled to take up a minimum viewport height of 82%. Whilst this results in a space between the content and footer on some devices, the cosmetic element of the site is improved.
 
 ## Further Development
-<hr>
 <p>Further improvement of the website can be achieved by using imperative programming languages, such as JavaScript, for example. Areas of improvement which can be gained by using these methods include the following:</p>
 
 * Having a single navbar within the code which is responsive based on screen sizes, rather than the current method of having two separate navbars which are either displayed or not displayed, depending on the screen size of the device being used.
@@ -197,7 +176,6 @@
 * Amending the function of the “Return to Top” link—displayed in the centre of the footer—from a link to the same page to a button which scrolls back to the top of the page, which will remove the need for the page to reload.
 
 ## Deployment
-<hr>
 
 ### GitHub Pages
 <p>The project was deployed to GitHub Pages using the following steps:</p>
@@ -227,7 +205,6 @@
 <p><a href="https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop" target="_blank">Click Here</a> to view more detailed explanations of the above process.</p>
 
 ## Credits
-<hr>
 
 ### Code
 * Code for the modals was sourced from a page by <a href="https://www.labnol.org/code/20083-modal-popup-css" target="_blank">labnol.org</a> and was customized by the website developer.
