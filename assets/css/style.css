@@ -216,7 +216,7 @@ main {
 }
 
 #menu-toggle:checked~.menu-dropdown {
-  height: 186px;
+  height: 184px;
 }
 
 /*-----Menu*/
@@ -648,7 +648,7 @@ footer button span {
   }
 
   #menu-toggle:checked~.menu-dropdown {
-    height: 166px;
+    height: 164px;
   }
 }
 
