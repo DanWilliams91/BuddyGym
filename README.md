@@ -61,7 +61,12 @@
         * <a href="assets/docs/wireframes/contact-page-desktop.png" target="_blank">Desktop version.</a>
 ## Features
 
-* Responsive on all device sizes.
+* The entire website is responsive on all device sizes, with additional content being displayed incrementally according to the device's screen size.
+* Each page contains a navbar for ease of navigation and user confidence with regards to their current location on the site.
+* On smaller devices, part of the navbar collapses into an expandable menu, enabling the text displayed in the navbar to remain at a legible size.
+* A contact form is provided for all user types to directly contact the organisation, with the provision of an additional form to enable existing members to book a fitness class at the club.
+* A "Return to Top" link is located at the bottom of each page, enabling users to return to the top of the page they're currently viewing without the need for them to manually scroll the entire viewport.
+* A footer, present on every page, with the organisation's contact information and links to its social media accounts.
 
 ## Technologies Used
 
@@ -93,7 +98,7 @@
 <p>The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.</p>
 
 * <a href="https://validator.w3.org/" target="_blank">W3C Markup Validator</a>
-    * <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fdanwilliams91.github.io%2FBuddyGym%2Findex.html" target="_blank">Home Page results.</a>
+    * <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fdanwilliams91.github.io%2FBuddyGym%2Findex.html" target="_blank">Home Page results</a><span> (additional explanation regarding the resulting warning can be found in the <a href="#further-testing">Further Testing section.</a>)</span>
     * <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fdanwilliams91.github.io%2FBuddyGym%2Fjoin.html" target="_blank">Join Us Page results.</a>
     * <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fdanwilliams91.github.io%2FBuddyGym%2Ffacilities.html" target="_blank">Facilities & Classes Page results.</a>
     * <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fdanwilliams91.github.io%2FBuddyGym%2Fcontact.html" target="_blank">Contact & Opening Times Page results.</a>
@@ -148,11 +153,12 @@
     * The Contact & Opening Times Page also contains <a href="assets/docs/user-stories-imgs/fu-c-ii.png" target="_blank">large images</a> to further highlight the existence of the organisation’s social media pages.
     * Each icon or image of the social media platforms acts as an anchor link, which navigates the user to the organisation’s relevant social media page. These links are opened in a new browser tab/window to ensure the user can return to the organisation’s page with ease.
 
-### Further Testing
+### <span id="further-testing">Further Testing</span>
 * The Website was tested on Google Chrome, Mozilla Firefox and Microsoft Edge browsers.
 * The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 11 and Google Pixel 5.
 * A large amount of testing was done to ensure that all pages were linking correctly.
 * Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+* The <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fdanwilliams91.github.io%2FBuddyGym%2Findex.html" target="_blank">Home Page results</a> of the W3C Markup Validator displays a warning regarding its heading which reads "Join Us for Free." The warning suggests using h1 elements for the purposes of top-level headings only. The "Join Us for Free" heading is considered to be a top-level heading as it's the first heading of the page's content, so this warning has been ignored.
 
 ### Bugs
 * When viewing the site from mobile devices, the font overlaying the hero image didn’t load correctly, and a different font was displayed. Upon further testing, it was determined that the link to Google Fonts was broken and the intended font was loading correctly on mobile devices but not on laptop devices.
