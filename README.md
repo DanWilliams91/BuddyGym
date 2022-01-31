@@ -1,8 +1,5 @@
 <h1 align="center">"BuddyGym" Website</h1>
-<a href="https://danwilliams91.github.io/BuddyGym/">Link to the deployed website.</a>
-
-<br>
-
+<p><a href="https://danwilliams91.github.io/BuddyGym/">Link to the deployed website.</a></p>
 <p>The BuddyGym website represents a website of a fictional organisation named BuddyGym.</p>
 <p>BuddyGym is a gym which offers incentives for potential members to sign up with a friend or family member. In doing so, members will enjoy a waived joining fee whilst BuddyGym gains an additional membership signup.</p>
 <p>The BuddyGym website is designed to be responsive and accessible on a range of device sizes. The design approach was to begin the development of the webpage for smaller screen sizes, such as mobile phones, with responsivity then being incrementally added for display on medium-and-larger-sized screens.</p>
