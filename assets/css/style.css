@@ -365,11 +365,13 @@ main {
 
 .membership-option p {
   border: 2px solid var(--main-orange-color);
-  background-color: var(--bg-black-color);
+  background-color: var(--main-orange-color);
   width: fit-content;
   margin-right: auto;
   margin-left: auto;
   padding: 0 2%;
+  color: black;
+  font-weight: 600;
 }
 /*Join Us Page Exclusive Items End*/
 
